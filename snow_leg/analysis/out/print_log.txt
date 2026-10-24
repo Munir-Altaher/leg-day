@@ -1,0 +1,83 @@
+snow thigh_outer {'bed': '+z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(52.2), np.float64(180.0), np.float64(14.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '5h 7m 53s', 'minutes': 307.9, 'grams': 52.68, 'slicer_warnings': []}
+snow thigh_cover {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(52.2), np.float64(180.0), np.float64(5.6)], 'fits': True, 'bridges': 5, 'max_bridge_span': 4.1, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '2h 56m 17s', 'minutes': 176.3, 'grams': 26.54, 'slicer_warnings': []}
+snow knee_pulley_60T {'bed': '+z', 'profile': (0.12, 3, 100, 'rectilinear', 5), 'size': [np.float64(40.7), np.float64(40.6), np.float64(7.5)], 'fits': True, 'bridges': 1, 'max_bridge_span': 2.9, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '1h 30m 24s', 'minutes': 90.4, 'grams': 7.8, 'slicer_warnings': []}
+snow shank {'bed': '-z', 'profile': (0.2, 3, 15, 'gyroid', 4), 'size': [np.float64(52.1), np.float64(167.4), np.float64(10.0)], 'fits': True, 'bridges': 1, 'max_bridge_span': 4.1, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '1h 55m 4s', 'minutes': 115.1, 'grams': 19.81, 'slicer_warnings': []}
+snow foot_snowshoe {'bed': '+y', 'profile': (0.2, 3, 15, 'gyroid', 3), 'size': [np.float64(117.0), np.float64(80.0), np.float64(7.0)], 'fits': True, 'bridges': 12, 'max_bridge_span': 4.1, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '3h 2m 11s', 'minutes': 182.2, 'grams': 25.63, 'slicer_warnings': []}
+snow ankle_bracket_in {'bed': '+z', 'profile': (0.16, 4, 40, 'gyroid', 4), 'size': [np.float64(48.3), np.float64(29.8), np.float64(16.5)], 'fits': True, 'bridges': 6, 'max_bridge_span': 0.5, 'long_bridges': 0, 'steep_overhang_mm2': 14.2, 'time': '42m 51s', 'minutes': 42.9, 'grams': 5.66, 'slicer_warnings': []}
+snow ankle_bracket_out {'bed': '-z', 'profile': (0.16, 4, 40, 'gyroid', 4), 'size': [np.float64(48.3), np.float64(29.8), np.float64(16.5)], 'fits': True, 'bridges': 6, 'max_bridge_span': 0.5, 'long_bridges': 0, 'steep_overhang_mm2': 14.2, 'time': '52m 1s', 'minutes': 52.0, 'grams': 6.34, 'slicer_warnings': []}
+snow hip_shaft_adapter {'bed': '-z', 'profile': (0.16, 4, 100, 'rectilinear', 4), 'size': [np.float64(36.0), np.float64(36.0), np.float64(6.5)], 'fits': True, 'bridges': 2, 'max_bridge_span': 6.4, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '43m 4s', 'minutes': 43.1, 'grams': 6.86, 'slicer_warnings': []}
+snow module_plate_inboard {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(72.0), np.float64(58.3), np.float64(7.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '1h 59m 48s', 'minutes': 119.8, 'grams': 18.3, 'slicer_warnings': []}
+snow module_flange_back {'bed': '-x', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(39.5), np.float64(52.0), np.float64(13.3)], 'fits': True, 'bridges': 6, 'max_bridge_span': 0.6, 'long_bridges': 0, 'steep_overhang_mm2': 28.4, 'time': '1h 8m 55s', 'minutes': 68.9, 'grams': 10.55, 'slicer_warnings': []}
+snow module_flange_front {'bed': '+x', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(39.5), np.float64(52.0), np.float64(13.3)], 'fits': True, 'bridges': 6, 'max_bridge_span': 0.6, 'long_bridges': 0, 'steep_overhang_mm2': 28.4, 'time': '1h 9m 52s', 'minutes': 69.9, 'grams': 10.79, 'slicer_warnings': []}
+snow module_frame_outboard {'bed': '+y', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(60.0), np.float64(113.5), np.float64(80.0)], 'fits': True, 'bridges': 26, 'max_bridge_span': 0.5, 'long_bridges': 0, 'steep_overhang_mm2': 486.0, 'time': '5h 9m 1s', 'minutes': 309.0, 'grams': 55.26, 'slicer_warnings': []}
+snow hip_shroud_out {'bed': '+z', 'profile': (0.2, 3, 15, 'gyroid', 4), 'size': [np.float64(73.0), np.float64(80.5), np.float64(42.5)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '3h 59m 40s', 'minutes': 239.7, 'grams': 50.13, 'slicer_warnings': []}
+snow body_bracket_back {'bed': '-x', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(67.0), np.float64(54.0), np.float64(28.0)], 'fits': True, 'bridges': 6, 'max_bridge_span': 0.9, 'long_bridges': 0, 'steep_overhang_mm2': 46.0, 'time': '1h 51m 35s', 'minutes': 111.6, 'grams': 18.04, 'slicer_warnings': []}
+snow body_bracket_front {'bed': '+x', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(68.0), np.float64(48.0), np.float64(25.5)], 'fits': True, 'bridges': 12, 'max_bridge_span': 0.6, 'long_bridges': 0, 'steep_overhang_mm2': 56.9, 'time': '1h 42m 56s', 'minutes': 102.9, 'grams': 18.27, 'slicer_warnings': []}
+snow body_spine {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(109.1), np.float64(60.0), np.float64(14.0)], 'fits': True, 'bridges': 6, 'max_bridge_span': 6.5, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '4h 46m 5s', 'minutes': 286.1, 'grams': 44.73, 'slicer_warnings': []}
+snow rig_plate {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(109.1), np.float64(60.0), np.float64(8.0)], 'fits': True, 'bridges': 4, 'max_bridge_span': 4.5, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '3h 21m 55s', 'minutes': 201.9, 'grams': 30.63, 'slicer_warnings': []}
+snow coupon_fit_test {'bed': '-z', 'profile': (0.2, 4, 100, 'rectilinear', 4), 'size': [np.float64(175.0), np.float64(80.0), np.float64(15.1)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '7h 8m 13s', 'minutes': 428.2, 'grams': 73.68, 'slicer_warnings': []}
+   long bridge thigh_outer {'z': 1.5, 'span': 15.142056965935755, 'box': [15.2, 15.2], 'area': 180.53810506000082, 'centre': [110.0, 43.5, 1.5]}
+orig thigh_outer {'bed': '+z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(66.2), np.float64(179.1), np.float64(14.0)], 'fits': True, 'bridges': 1, 'max_bridge_span': 15.1, 'long_bridges': 1, 'steep_overhang_mm2': 0.0, 'time': '4h 50m 55s', 'minutes': 290.9, 'grams': 50.49, 'slicer_warnings': ['print warning: Detected print stability issues:']}
+orig thigh_cover {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(66.2), np.float64(179.1), np.float64(5.0)], 'fits': True, 'bridges': 3, 'max_bridge_span': 3.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '2h 48m 43s', 'minutes': 168.7, 'grams': 25.39, 'slicer_warnings': []}
+   long bridge knee_pulley_60T {'z': 0.5, 'span': 13.9690951465926, 'box': [40.7, 40.6], 'area': 1005.0571737700006, 'centre': [110.0, 110.3, 0.5]}
+orig knee_pulley_60T {'bed': '+z', 'profile': (0.12, 3, 100, 'rectilinear', 5), 'size': [np.float64(40.7), np.float64(40.6), np.float64(8.0)], 'fits': True, 'bridges': 2, 'max_bridge_span': 14.0, 'long_bridges': 1, 'steep_overhang_mm2': 0.0, 'time': '1h 30m 23s', 'minutes': 90.4, 'grams': 7.93, 'slicer_warnings': ['print warning: Detected print stability issues:', 'Floating bridge anchors, Loose extrusions, Long bridging extrusions']}
+orig shank {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(25.9), np.float64(132.0), np.float64(10.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '1h 30m 21s', 'minutes': 90.3, 'grams': 16.71, 'slicer_warnings': []}
+   long bridge foot {'z': 9.0, 'span': 11.805349359596224, 'box': [14.0, 19.7], 'area': 249.55207011999977, 'centre': [110.0, 116.5, 9.0]}
+orig foot {'bed': '-z', 'profile': (0.16, 4, 100, 'rectilinear', 4), 'size': [np.float64(20.0), np.float64(37.7), np.float64(20.0)], 'fits': True, 'bridges': 1, 'max_bridge_span': 11.8, 'long_bridges': 1, 'steep_overhang_mm2': 181.0, 'time': '40m 43s', 'minutes': 40.7, 'grams': 7.17, 'slicer_warnings': ['print warning: Detected print stability issues:', 'Floating bridge anchors, Low bed adhesion, Loose extrusions, Long bridging extrusions']}
+orig hip_shaft_adapter {'bed': '-z', 'profile': (0.16, 4, 100, 'rectilinear', 4), 'size': [np.float64(36.0), np.float64(36.0), np.float64(6.5)], 'fits': True, 'bridges': 2, 'max_bridge_span': 6.4, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '43m 4s', 'minutes': 43.1, 'grams': 6.86, 'slicer_warnings': []}
+orig module_frame_inboard {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(72.0), np.float64(58.3), np.float64(46.5)], 'fits': True, 'bridges': 12, 'max_bridge_span': 3.6, 'long_bridges': 0, 'steep_overhang_mm2': 53.0, 'time': '3h 45m 23s', 'minutes': 225.4, 'grams': 40.57, 'slicer_warnings': []}
+   long bridge module_plate_outboard {'z': 108.5, 'span': 33.11691282376977, 'box': [59.9, 58.4], 'area': 2456.1813563950013, 'centre': [109.8, 107.8, 108.5]}
+orig module_plate_outboard {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(59.9), np.float64(64.4), np.float64(113.5)], 'fits': True, 'bridges': 1, 'max_bridge_span': 33.1, 'long_bridges': 1, 'steep_overhang_mm2': 0.0, 'time': '3h 7m 23s', 'minutes': 187.4, 'grams': 28.18, 'slicer_warnings': ['print warning: Detected print stability issues:', 'Floating bridge anchors, Low bed adhesion, Loose extrusions, Long bridging extrusions']}
+orig body_bracket_back {'bed': '-x', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(79.0), np.float64(53.9), np.float64(6.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '1h 34m 0s', 'minutes': 94.0, 'grams': 15.09, 'slicer_warnings': []}
+orig body_bracket_front {'bed': '+x', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(74.0), np.float64(44.0), np.float64(6.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '1h 15m 25s', 'minutes': 75.4, 'grams': 12.87, 'slicer_warnings': []}
+orig body_spine {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(109.1), np.float64(40.0), np.float64(12.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '2h 25m 12s', 'minutes': 145.2, 'grams': 23.55, 'slicer_warnings': []}
+orig rig_plate {'bed': '-z', 'profile': (0.2, 4, 40, 'gyroid', 4), 'size': [np.float64(109.1), np.float64(40.0), np.float64(6.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '2h 13m 28s', 'minutes': 133.5, 'grams': 20.14, 'slicer_warnings': []}
+orig coupon_fit_test {'bed': '-z', 'profile': (0.2, 4, 100, 'rectilinear', 4), 'size': [np.float64(165.0), np.float64(60.0), np.float64(5.0)], 'fits': True, 'bridges': 0, 'max_bridge_span': 0.0, 'long_bridges': 0, 'steep_overhang_mm2': 0.0, 'time': '3h 58m 24s', 'minutes': 238.4, 'grams': 50.08, 'slicer_warnings': []}
+# Print check — support-free + PrusaSlicer (analysis/print_check.py)
+
+Orientation = the listed face on the bed (body-frame outward normal). Supports OFF. Bridges = flat downward regions off the bed (hole tops, pocket roofs), span = smaller side; ≤ 10 mm is printable unsupported. Steep overhang = downward facets steeper than 45° (round holes printed sideways show up here). PrusaSlicer 2.9.6 CLI, 0.4 nozzle, 0.45 lines, PLA 1.24 g/cm³.
+
+| part | on bed | size mm | fits | max bridge span mm | bridges > 10 mm | steep overhang mm² | layer / perim / infill | time | g |
+|---|---|---|---|---|---|---|---|---|---|
+| snow_thigh_outer | +z | [np.float64(52.2), np.float64(180.0), np.float64(14.0)] | yes | 0.0 | 0 | 0.0 | 0.2 / 4 / 40% gyroid | 5h 7m 53s | 52.68 |
+| snow_thigh_cover | -z | [np.float64(52.2), np.float64(180.0), np.float64(5.6)] | yes | 4.1 | 0 | 0.0 | 0.2 / 4 / 40% gyroid | 2h 56m 17s | 26.54 |
+| snow_knee_pulley_60T | +z | [np.float64(40.7), np.float64(40.6), np.float64(7.5)] | yes | 2.9 | 0 | 0.0 | 0.12 / 3 / 100% rectilinear | 1h 30m 24s | 7.8 |
+| snow_shank | -z | [np.float64(52.1), np.float64(167.4), np.float64(10.0)] | yes | 4.1 | 0 | 0.0 | 0.2 / 3 / 15% gyroid | 1h 55m 4s | 19.81 |
+| snow_foot_snowshoe | +y | [np.float64(117.0), np.float64(80.0), np.float64(7.0)] | yes | 4.1 | 0 | 0.0 | 0.2 / 3 / 15% gyroid | 3h 2m 11s | 25.63 |
+| snow_ankle_bracket_in | +z | [np.float64(48.3), np.float64(29.8), np.float64(16.5)] | yes | 0.5 | 0 | 14.2 | 0.16 / 4 / 40% gyroid | 42m 51s | 5.66 |
+| snow_ankle_bracket_out | -z | [np.float64(48.3), np.float64(29.8), np.float64(16.5)] | yes | 0.5 | 0 | 14.2 | 0.16 / 4 / 40% gyroid | 52m 1s | 6.34 |
+| snow_hip_shaft_adapter | -z | [np.float64(36.0), np.float64(36.0), np.float64(6.5)] | yes | 6.4 | 0 | 0.0 | 0.16 / 4 / 100% rectilinear | 43m 4s | 6.86 |
+| snow_module_plate_inboard | -z | [np.float64(72.0), np.float64(58.3), np.float64(7.0)] | yes | 0.0 | 0 | 0.0 | 0.2 / 4 / 40% gyroid | 1h 59m 48s | 18.3 |
+| snow_module_flange_back | -x | [np.float64(39.5), np.float64(52.0), np.float64(13.3)] | yes | 0.6 | 0 | 28.4 | 0.2 / 4 / 40% gyroid | 1h 8m 55s | 10.55 |
+| snow_module_flange_front | +x | [np.float64(39.5), np.float64(52.0), np.float64(13.3)] | yes | 0.6 | 0 | 28.4 | 0.2 / 4 / 40% gyroid | 1h 9m 52s | 10.79 |
+| snow_module_frame_outboard | +y | [np.float64(60.0), np.float64(113.5), np.float64(80.0)] | yes | 0.5 | 0 | 486.0 | 0.2 / 4 / 40% gyroid | 5h 9m 1s | 55.26 |
+| snow_hip_shroud_out | +z | [np.float64(73.0), np.float64(80.5), np.float64(42.5)] | yes | 0.0 | 0 | 0.0 | 0.2 / 3 / 15% gyroid | 3h 59m 40s | 50.13 |
+| snow_body_bracket_back | -x | [np.float64(67.0), np.float64(54.0), np.float64(28.0)] | yes | 0.9 | 0 | 46.0 | 0.2 / 4 / 40% gyroid | 1h 51m 35s | 18.04 |
+| snow_body_bracket_front | +x | [np.float64(68.0), np.float64(48.0), np.float64(25.5)] | yes | 0.6 | 0 | 56.9 | 0.2 / 4 / 40% gyroid | 1h 42m 56s | 18.27 |
+| snow_body_spine | -z | [np.float64(109.1), np.float64(60.0), np.float64(14.0)] | yes | 6.5 | 0 | 0.0 | 0.2 / 4 / 40% gyroid | 4h 46m 5s | 44.73 |
+| snow_rig_plate | -z | [np.float64(109.1), np.float64(60.0), np.float64(8.0)] | yes | 4.5 | 0 | 0.0 | 0.2 / 4 / 40% gyroid | 3h 21m 55s | 30.63 |
+| snow_coupon_fit_test | -z | [np.float64(175.0), np.float64(80.0), np.float64(15.1)] | yes | 0.0 | 0 | 0.0 | 0.2 / 4 / 100% rectilinear | 7h 8m 13s | 73.68 |
+
+**Snow leg printed parts (excl. coupon): 42.0 h, 408 g.**
+
+## Original Leg Day parts, same method (for COMPARISON.md)
+
+| part | time | g |
+|---|---|---|
+| thigh_outer | 4h 50m 55s | 50.49 |
+| thigh_cover | 2h 48m 43s | 25.39 |
+| knee_pulley_60T | 1h 30m 23s | 7.93 |
+| shank | 1h 30m 21s | 16.71 |
+| foot | 40m 43s | 7.17 |
+| hip_shaft_adapter | 43m 4s | 6.86 |
+| module_frame_inboard | 3h 45m 23s | 40.57 |
+| module_plate_outboard | 3h 7m 23s | 28.18 |
+| body_bracket_back | 1h 34m 0s | 15.09 |
+| body_bracket_front | 1h 15m 25s | 12.87 |
+| body_spine | 2h 25m 12s | 23.55 |
+| rig_plate | 2h 13m 28s | 20.14 |
+| coupon_fit_test | 3h 58m 24s | 50.08 |
+
+**Original printed parts (excl. coupon): 26.4 h, 255 g.**
+
+exit 0

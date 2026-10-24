@@ -1,0 +1,235 @@
+{
+ "ABAD_CLEAR": 2.0,
+ "ADAPTER_T": 6.0,
+ "ANKLE_BUSH_FIT": 0.3,
+ "ANKLE_MARGIN": 15.0,
+ "ANKLE_PIN_D": 5.0,
+ "AXLE_D": 5.0,
+ "B625": {
+  "d": 5.0,
+  "D": 16.0,
+  "B": 5.0
+ },
+ "BACKLASH_ARCMIN": 18.0,
+ "BB_BACK_R": 27.0,
+ "BB_FRONT_R": 22.0,
+ "BED": [
+  220,
+  220,
+  250
+ ],
+ "BELT_SUPPLIED": 450.0,
+ "BELT_T_CONT": 60.0,
+ "BELT_T_PEAK": 120.0,
+ "BELT_W": 6.0,
+ "BODY_BELOW_HIP": 40.0,
+ "BRACKET_T": 6.0,
+ "BRIDGE_W": 20.0,
+ "BRIDGE_Y": [
+  28.5,
+  34.5
+ ],
+ "CHEEK_T": 4.0,
+ "CLR": {
+  "M2.5": 2.9,
+  "M3": 3.4,
+  "M4": 4.5,
+  "M5": 5.5
+ },
+ "DECK_T": 2.0,
+ "FALL_G": 3.0,
+ "FILE_PREFIX": "snow_",
+ "FIT_BEARING": 0.1,
+ "FIT_LOCATE": 0.2,
+ "FIT_RUN": 0.35,
+ "FLANGE_T": 5.5,
+ "FLANGE_X": 30.5,
+ "FOOT": "snowshoe",
+ "FOOT_C_DIST": 46.0,
+ "FOOT_D": 20.0,
+ "FOOT_L": 120.0,
+ "FOOT_MASS_BUDGET": 35.0,
+ "FOOT_R_TAIL": 34.0,
+ "FOOT_R_TOE": 40.0,
+ "FOOT_SCREW": "M3",
+ "FOOT_W": 80.0,
+ "FOOT_WINGS": false,
+ "GAP_MOVING": 0.5,
+ "GEAR": 10.0,
+ "GT2_PITCH": 2.0,
+ "GT2_PLD": 0.254,
+ "GT2_TOOTH_TWEAK": 0.0,
+ "G_ACC": 9.81,
+ "HIP_SPACING_SNOW": 0.32,
+ "HIP_TEETH": 20,
+ "IDLER_BOLT": "M3",
+ "IDLER_SLOT_TRAVEL": 9.0,
+ "IDLER_Y": -40.0,
+ "INSERTS": {
+  "M3": {
+   "hole": 4.1,
+   "length": 5.7,
+   "od": 4.6,
+   "cap": 800.0
+  },
+  "M5": {
+   "hole": 6.5,
+   "length": 9.5,
+   "od": 7.0,
+   "cap": 2000.0
+  }
+ },
+ "INSERT_M3": 4.0,
+ "INSERT_PITCH": {
+  "M3": 0.5,
+  "M5": 0.8
+ },
+ "INSERT_SF": 3.0,
+ "INSERT_WALL": 3.0,
+ "KNEE_TEETH": 60,
+ "KT_OUT": 0.56,
+ "L1": 130.0,
+ "L2": 130.0,
+ "LUG_H": 5.0,
+ "LUG_W": 1.6,
+ "L_ABAD": 53.0,
+ "MOTOR_BACK_HOLE_DEPTH": 5.0,
+ "MOTOR_BACK_N": 5,
+ "MOTOR_BACK_PCD": 45.0,
+ "MOTOR_BOSS_D": 15.0,
+ "MOTOR_BOSS_H": 1.0,
+ "MOTOR_D": 53.0,
+ "MOTOR_L": 37.0,
+ "MOTOR_MASS": 0.185,
+ "MOTOR_OUTPUT_FACE": "right_inner",
+ "MOTOR_OUT_HOLE_DEPTH": 3.0,
+ "MOTOR_OUT_PCD": 27.0,
+ "NUT_AF": {
+  "M2.5": 5.2,
+  "M3": 5.7,
+  "M5": 8.2
+ },
+ "N_LUGS": 5,
+ "N_RATIO": 3.0,
+ "OD_HIP": 12.224395447351629,
+ "OD_KNEE": 37.68918634205488,
+ "PAD_L": 44.0,
+ "PAD_PROUD": 0.0,
+ "PAD_W": 34.0,
+ "PAP_D": 1.0,
+ "PAP_H": 1.2,
+ "PAP_MAX": 300,
+ "PAP_PITCH": 2.5,
+ "PD_HIP": 12.732395447351628,
+ "PD_KNEE": 38.197186342054884,
+ "PIVOT_ABOVE_DECK": 10.0,
+ "PIVOT_AHEAD_FRAC": 0.1,
+ "PLATE_T": 5.0,
+ "PLA_E": 2300.0,
+ "PLA_RHO": 1.24e-06,
+ "PLA_STRENGTH": 25.0,
+ "Q0_LIM": [
+  -45.0,
+  45.0
+ ],
+ "Q1_LIM": [
+  -100.0,
+  100.0
+ ],
+ "Q2_LIM": [
+  15.0,
+  137.0
+ ],
+ "RIG_SLOT_GRID": 20.0,
+ "RIM_W": 1.6,
+ "ROBOT_MASS_SNOW": 4.5,
+ "ROTOR_INERTIA": 5.4e-05,
+ "SF": 2.0,
+ "SHANK_CLOSED": true,
+ "SHANK_T": 10.0,
+ "SHANK_TIP_R": 9.0,
+ "SHANK_W_FOOT": 14.0,
+ "SHANK_W_KNEE": 26.0,
+ "SKELETON": true,
+ "SK_FILLET": 2.0,
+ "SK_FLANGE": 4.5,
+ "SK_KNEE_SOLID_R": 13.0,
+ "SK_MIN_HOLE": 6.0,
+ "SK_SHANK_HOLES": 5,
+ "SK_STRUT": 4.0,
+ "SK_THIGH_HOLES": 4,
+ "SK_WEB": 3.0,
+ "SNOW_DUTY": 0.75,
+ "SNOW_LIFT_FRAC": 0.25,
+ "SNOW_MODE": true,
+ "SNOW_PERIOD": 1.6,
+ "SNOW_STANCE_FRAC": 0.92,
+ "SNOW_STEP": 0.12,
+ "SNOW_SWING_MARGIN": 30.0,
+ "SPEED_RATED": 370.0,
+ "SPIKE_N": 4,
+ "SPIKE_PROTRUDE": 3.0,
+ "SPINE_Z": [
+  -52.0,
+  -46.0
+ ],
+ "SPRING_K": 0.1,
+ "SPRING_PRELOAD": 2.0,
+ "STANCE_FRAC": 0.82,
+ "STOP_R": 20.0,
+ "STOP_SLEEVE_D": 5.0,
+ "STUB_D": 5.0,
+ "TAP": {
+  "M2.5": 2.2,
+  "M3": 2.6
+ },
+ "TAU_PEAK": 4.1,
+ "TAU_RATED": 1.3,
+ "THIGH_BOSS_R_HIP": 20.0,
+ "THIGH_BOSS_R_KNEE": 12.0,
+ "THIGH_CHANNEL": 9.0,
+ "THIGH_CH_R_HIP": 17.5,
+ "THIGH_CH_R_KNEE": 22.098593171027442,
+ "THIGH_HOLES": false,
+ "THIGH_R_HIP": 24.0,
+ "THIGH_R_KNEE": 26.098593171027442,
+ "THIGH_WALL": 5.0,
+ "THIGH_WALL_THIN": 3.0,
+ "TOE_BEVEL_RUN": 10.0,
+ "Z_ADAPTER": [
+  -31.0,
+  -25.0
+ ],
+ "Z_CHANNEL": [
+  -19.5,
+  -10.5
+ ],
+ "Z_HIP_MOTOR": [
+  -5.5,
+  31.5
+ ],
+ "Z_KNEE_MOTOR": [
+  -68.0,
+  -31.0
+ ],
+ "Z_PLATE_IN": [
+  -73.0,
+  -68.0
+ ],
+ "Z_PLATE_OUT": [
+  31.5,
+  36.5
+ ],
+ "Z_SHANK": [
+  -5.0,
+  5.0
+ ],
+ "Z_THIGH_IN": [
+  -24.5,
+  -19.5
+ ],
+ "Z_THIGH_OUT": [
+  -10.5,
+  -5.5
+ ]
+}

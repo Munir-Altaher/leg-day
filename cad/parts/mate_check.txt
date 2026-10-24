@@ -1,0 +1,13 @@
+## hip_module.SLDASM
+- mate errors after rebuild: none
+- hip +: driven to 60 deg -> moved 118.6 mm, errors none -> PASS
+- hip +: driven past limit to 125 deg -> errors [('Coincident2', 46), ('LimitAngle1', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+- knee: driven to 90 deg -> moved 113.1 mm, errors none -> PASS
+- knee: driven past limit to 170 deg -> errors [('LimitAngle2', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+- ankle (snowshoe): driven to 45 deg -> moved 9.6 mm, errors none -> PASS
+- ankle (snowshoe): driven past limit to 70 deg -> errors [('Coincident1', 1), ('Coincident12', 1), ('Coincident16', 46), ('Coincident17', 1), ('LimitAngle3', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+## leg_3dof.SLDASM
+- mate errors after rebuild: none
+- hip_module solving = 1 (1 = flexible), fixed = False
+- ab/ad: driven to 30 deg -> moved 15.9 mm, errors none -> PASS
+- ab/ad: driven past limit to 70 deg -> errors [('Coincident1', 46), ('LimitAngle1', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS

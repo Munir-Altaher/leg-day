@@ -1,0 +1,9 @@
+Z stack (mm): plate_in (-73.0, -68.0) knee motor (-68.0, -31.0) adapter (-31.0, -25.0) thigh_in (-24.5, -19.5) channel (-19.5, -10.5) thigh_out (-10.5, -5.5) hip motor (-5.5, 31.5) plate_out (31.5, 36.5)
+gap adapter->thigh cover 0.5
+motor length check knee 37.0 hip 37.0 vs MOTOR_L 37.0
+625 seat 16.1 boss pocket 15.2
+insert hole 4.0 depth 6.7 plate pad thickness 7.0 spine 8.0
+snowshoe cheek gap 10.4 shank 10.0 clearance/side 0.2
+ankle M3x25 stack 18.4 + wave washer 0.5 + nylock 4.0 = 22.9 -> protrusion 2.1
+plug in cheeks: plug width 12.0 lips stop range (11.0, 52.0)
+knee ring pocket vs shank hex: hex AF M5 8.2

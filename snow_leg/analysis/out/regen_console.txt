@@ -1,0 +1,12 @@
+params.py                                exit 0       0 s
+analysis/leg_model.py                    exit 0       1 s
+analysis/snow_model.py                   exit 0       1 s
+cad/build_parts.py                       exit 0     309 s
+analysis/clearance_check.py              exit 0     174 s
+cad/build_parts.py body_spine            exit 0      22 s
+cad/build_assembly.py                    exit 0      98 s
+cad/verify_mates.py                      exit 0      61 s
+analysis/print_check.py                  exit 0      36 s
+analysis/insert_check.py                 exit 0       2 s
+analysis/skeleton_check.py               exit 1       2 s
+REGENERATE STOPPED

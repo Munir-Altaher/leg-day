@@ -1,0 +1,14 @@
+## snow_hip_module.SLDASM
+- mate errors after rebuild: none
+- hip (thigh Right vs frame Right): driven to 60.0° -> moved 95.4 mm, errors none -> PASS
+- hip (thigh Right vs frame Right): driven past the limit to 125.0° -> errors [('Coincident2', 46), ('LimitAngle1', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+- knee (shank Right vs thigh Right): driven to 90.0° -> moved 102.2 mm, errors none -> PASS
+- knee (shank Right vs thigh Right): driven past the limit to 160.0° -> errors [('LimitAngle2', 46), ('Angle1', 46)], moved 0.0 mm -> limit HOLDS
+- ankle (foot Right vs shank Top = 90 + α): driven to 120.0° -> moved 7.5 mm, errors none -> PASS
+- ankle (foot Right vs shank Top = 90 + α): driven past the limit to 152.5° -> errors [('LimitAngle3', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+- ankle (foot Right vs shank Top = 90 + α): driven past the limit to 64.4° -> errors [('LimitAngle3', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+## snow_leg_3dof.SLDASM
+- mate errors after rebuild: none
+- hip_module solving = 1 (1 = flexible), fixed = False
+- ab/ad (frame Top vs spine Top): driven to 30.0° -> moved 15.9 mm, errors none -> PASS
+- ab/ad (frame Top vs spine Top): driven past the limit to 70.0° -> errors [('Coincident1', 46), ('LimitAngle1', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS

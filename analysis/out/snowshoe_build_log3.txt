@@ -1,0 +1,158 @@
+building snowshoe
+   {'bbox_mm': [-64.27, -265.15, 18.0, 45.73, -234.96, 88.0], 'volume_mm3': 23512, 'solid_pla_g': 29.2, 'skeleton': True}
+  module_plate_inboard-1       box(mm) x[  -36.0,   36.0] y[  -30.0,   28.3] z[  -20.0,  -13.0]
+  module_flange_back-1         box(mm) x[  -36.0,  -24.2] y[  -26.0,   26.0] z[  -13.0,   26.5]
+  module_flange_front-1        box(mm) x[   24.2,   36.0] y[  -26.0,   26.0] z[  -13.0,   26.5]
+  module_frame_outboard-1      box(mm) x[  -30.0,   30.0] y[  -30.0,   40.0] z[  -24.0,   89.5]
+  ref_motor_hip-1              box(mm) x[  -26.5,   26.5] y[  -26.5,   26.5] z[   47.5,   84.5]
+  ref_motor_knee-1             box(mm) x[  -26.5,   26.5] y[  -26.5,   26.5] z[  -15.0,   22.0]
+  hip_shaft_adapter-1          box(mm) x[  -18.0,   18.0] y[  -18.0,   18.0] z[   22.0,   28.5]
+  ref_pulley_20T_kit-1         box(mm) x[   -6.1,    6.1] y[   -6.1,    6.1] z[   34.0,   42.0]
+  thigh_outer-1                box(mm) x[  -33.1,   33.1] y[ -156.1,   23.0] z[   33.5,   47.5]
+  thigh_cover-1                box(mm) x[  -33.1,   33.1] y[ -156.1,   23.0] z[   28.5,   33.5]
+  knee_pulley_60T-1            box(mm) x[  -20.3,   20.3] y[ -150.3, -109.7] z[   34.0,   41.5]
+  shank-1                      box(mm) x[  -13.0,   21.1] y[ -256.1, -117.0] z[   48.0,   58.0]
+  snowshoe-1                   box(mm) x[  -64.3,   45.7] y[ -265.2, -235.0] z[   18.0,   88.0]
+hip_module mates:
+    mate HIP_axis: ok
+    mate HIP_plane: ok
+    mate HIP_limit: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate KNEE_MOTOR_axis: ok
+    mate KNEE_MOTOR_plane: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate KNEE_axis: ok
+    mate KNEE_plane: ok
+    mate KNEE_limit: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate ANKLE_axis: ok
+    mate ANKLE_plane: ok
+    mate ANKLE_limit: ok
+hip_module interferences:
+  0
+  sub-assembly placement residual (mm): [0.0, 0.0, 0.0]
+  hip_module-2                 box(mm) x[  -62.2,   47.1] y[ -286.2,   40.0] z[  -24.0,   89.5]
+  ref_motor_abad-1             box(mm) x[  -73.0,  -36.0] y[  -26.5,   26.5] z[  -26.5,   26.5]
+  body_bracket_back-1          box(mm) x[  -79.0,  -51.0] y[  -27.0,   27.0] z[  -40.0,   27.0]
+  body_bracket_front-1         box(mm) x[   17.0,   42.5] y[  -24.0,   24.0] z[  -46.0,   22.0]
+  body_spine-1                 box(mm) x[  -72.8,   36.3] y[  -24.0,   24.0] z[  -54.0,  -40.0]
+  rig_plate-1                  box(mm) x[  -72.8,   36.3] y[  -20.0,   20.0] z[  -62.0,  -54.0]
+leg_3dof mates:
+    mate ABAD_axis: ok
+    mate ABAD_plane: ok
+    mate ABAD_limit: ok
+MATES ALL OK
+leg_3dof interferences:
+  0
+## hip_module.SLDASM
+- mate errors after rebuild: none
+- hip +: driven to 60 deg -> moved 118.6 mm, errors none -> PASS
+- hip +: driven past limit to 125 deg -> errors [('Coincident2', 46), ('LimitAngle1', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+- knee: driven to 90 deg -> moved 113.1 mm, errors none -> PASS
+- knee: driven past limit to 170 deg -> errors [('LimitAngle2', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+- ankle (snowshoe): driven to 45 deg -> moved 9.6 mm, errors none -> PASS
+- ankle (snowshoe): driven past limit to 70 deg -> errors [('Coincident1', 1), ('Coincident12', 1), ('Coincident16', 46), ('Coincident17', 1), ('LimitAngle3', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+## leg_3dof.SLDASM
+- mate errors after rebuild: none
+- hip_module solving = 1 (1 = flexible), fixed = False
+- ab/ad: driven to 30 deg -> moved 15.9 mm, errors none -> PASS
+- ab/ad: driven past limit to 70 deg -> errors [('Coincident1', 46), ('LimitAngle1', 46), ('Angle1', 47)], moved 0.0 mm -> limit HOLDS
+# Swept clearance check (analysis/clearance_check.py)
+
+Required clearance 0.5 mm. Moving parts = STL point clouds (1.5 mm edge sampling); static parts = exact boxes/cylinders. The snowshoe is tested at both ankle stops (11 and 52 deg).
+
+- Knee, q1 = 0: collision-free q2 in [-30, 152] deg (design limits (15.0, 145.0)) -> PASS
+- Hip, all knee angles in limits (5 deg steps): collision-free q1 in [-107, 107] deg (design limits (-100.0, 100.0)) -> PASS
+
+| q2 | hip free from | to |
+|---|---|---|
+| 15 | -107 | 107 |
+| 20 | -107 | 107 |
+| 25 | -107 | 107 |
+| 30 | -107 | 107 |
+| 35 | -107 | 107 |
+| 40 | -107 | 107 |
+| 45 | -107 | 107 |
+| 50 | -107 | 107 |
+| 55 | -107 | 107 |
+| 60 | -107 | 107 |
+| 65 | -107 | 107 |
+| 70 | -107 | 107 |
+| 75 | -107 | 107 |
+| 80 | -107 | 107 |
+| 85 | -107 | 107 |
+| 90 | -107 | 107 |
+| 95 | -107 | 107 |
+| 100 | -107 | 107 |
+| 105 | -107 | 107 |
+| 110 | -107 | 107 |
+| 115 | -107 | 107 |
+| 120 | -107 | 107 |
+| 125 | -107 | 107 |
+| 130 | -107 | 107 |
+| 135 | -107 | 107 |
+| 140 | -107 | 107 |
+| 145 | -107 | 107 |
+
+## Ab/ad sweep (module + leg about X), hip and knee at several poses
+
+- q1 =    0, q2 =  15: ab/ad collision-free [-46, 93] deg
+- q1 =    0, q2 =  90: ab/ad collision-free [-46, 93] deg
+- q1 =  -60, q2 = 120: ab/ad collision-free [-46, 97] deg
+- q1 =   60, q2 =  30: ab/ad collision-free [-46, 94] deg
+- q1 = -100, q2 = 150: ab/ad collision-free [-46, 87] deg
+- q1 =  100, q2 =  15: ab/ad collision-free [-46, 101] deg
+- q1 = -100, q2 =  15: ab/ad collision-free [-46, 113] deg
+- q1 =  100, q2 = 150: ab/ad collision-free [-46, 101] deg
+
+Ab/ad collision-free over all tested poses: [-46, 87] deg (design limits (-45.0, 45.0)) -> PASS
+
+## Belt
+- belt back to channel wall: knee 1.87 mm, hip 10.01 mm (>= 1 mm required); knee-pulley flange to wall 1.75 mm
+- belt width 6.0 mm in a 9.0 mm channel: 1.5 mm per side
+# Skeleton links: strength, stiffness, mass (analysis/skeleton_check.py)
+
+## Shank (critical section 25 mm below knee, width 24.9 mm, flanges 4.5 mm; the bend bows 9.3 mm off the knee-foot line, axial load x bow is included)
+
+| case | F_inplane N | F_out N | sigma solid MPa | sigma skeleton (Kt=2) MPa | allow MPa | ok |
+|---|---|---|---|---|---|---|
+| stance | 8.6 | 1.5 | 1.36 | 4.75 | 12.5 | yes |
+| push-off | 4.9 | 0.0 | 0.63 | 1.70 | 12.5 | yes |
+| lateral | 8.6 | 4.5 | 2.12 | 8.95 | 12.5 | yes |
+| knee peak (belt 120 N -> 2.29 Nm) | - | - | 2.21 | 5.98 | 12.5 | yes |
+
+## Thigh (box section at the widest cutout, 116 mm below the hip: depth 51.5 mm, walls 5.0 mm with a 24.1 mm cutout, rim 5.0 mm)
+
+- stance: sigma (Kt=2) 0.38 MPa; hip-motor peak 4.1 Nm stalled against the ground: 1.40 MPa; allow 12.5 MPa -> PASS
+- hip-motor flange, 3 x M2.5 on Ø27 at 4.1 Nm: 101 N per screw, PLA bearing 8.1 MPa (allow 12.5; PASS)
+- knee adapter at the 0.76 Nm firmware limit: 19 N per M2.5, bearing 2.1 MPa
+- ab/ad flange (5.5 mm) at 4.1 Nm: bearing 7.4 MPa (-> ab/ad firmware limit 4.1 Nm)
+- Ø5 steel hip shaft at 0.76 Nm: tau = 31 MPa
+- Ø5 steel hip shaft at 4.1 Nm: tau = 167 MPa
+
+## Foot deflection at 15 N stance
+- thigh 0.018 mm, shank in-plane 0.216 mm, shank out-of-plane (10 % lateral) 0.637 mm -> total 0.87 mm (target < 1 mm) -> PASS
+- for reference, gearbox backlash alone (18 arcmin) gives ~1.4 mm of free play at the foot (not elastic deflection)
+
+## Snowshoe (worst case: trot peak 32 N all at the toe, Kt = 2)
+- toe cantilever 32 mm at the hub edge (section 68 mm wide: 0.8 skin + Voronoi ribs + rim + 3 keels 9.7 mm tall, I = 1199 mm^4): sigma 5.3 MPa, allow 12.5 -> PASS
+- ankle bolt bearing on the two 4 mm cheeks: 1.3 MPa -> PASS
+- lip stop (walking load at the toe, held by a lip 12 mm above the pivot): 52 N on a 6 x 10.4 mm face = 0.8 MPa -> PASS
+
+## Mass (printed estimate = solid volume x 1.24 g/cm^3 x 0.75)
+
+| part | solid g | skeleton g | saving |
+|---|---|---|---|
+| thigh_outer | 46.7 | 43.9 | 6 % |
+| thigh_cover | 24.9 | 22.0 | 11 % |
+| shank | 27.5 | 18.2 | 34 % |
+| **thigh + shank** | 99.2 | 84.2 | **15 %** |
+
+Link inertia about the hip (leg straight, links only): solid 12.81 kg cm^2, skeleton 9.26 kg cm^2 (28 % less). A gram off the shank is worth 8x a gram off the thigh.
+exit 0

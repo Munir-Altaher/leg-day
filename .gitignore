@@ -1,0 +1,10 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.pyc
+# large generated / hand-in artefacts
+handin.zip
+*.gcode
+# SolidWorks lock and temp files
+~$*
+*.SLDPRT.bak

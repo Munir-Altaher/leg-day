@@ -1,0 +1,715 @@
+round    1  steps     6144  mean episode reward    -7.91  (    2 s)
+round    2  steps    12288  mean episode reward    -6.41  (    4 s)
+round    3  steps    18432  mean episode reward    -7.15  (    7 s)  | replay: turned     26 deg, no landing
+round    4  steps    24576  mean episode reward    -6.79  (   13 s)
+round    5  steps    30720  mean episode reward    -3.60  (   16 s)
+round    6  steps    36864  mean episode reward    -4.82  (   18 s)  | replay: turned     41 deg, no landing
+round    7  steps    43008  mean episode reward    -4.57  (   22 s)
+round    8  steps    49152  mean episode reward    -2.69  (   24 s)
+round    9  steps    55296  mean episode reward    -1.64  (   27 s)  | replay: turned    115 deg, no landing
+round   10  steps    61440  mean episode reward    -1.08  (   30 s)
+round   11  steps    67584  mean episode reward    -0.39  (   33 s)
+round   12  steps    73728  mean episode reward    -0.69  (   36 s)  | replay: turned    138 deg, no landing
+round   13  steps    79872  mean episode reward     1.48  (   39 s)
+round   14  steps    86016  mean episode reward     0.77  (   41 s)
+round   15  steps    92160  mean episode reward     3.06  (   44 s)  | replay: turned    180 deg, no landing
+round   16  steps    98304  mean episode reward     3.66  (   47 s)
+round   17  steps   104448  mean episode reward     5.15  (   50 s)
+round   18  steps   110592  mean episode reward     6.12  (   52 s)  | replay: turned    209 deg, no landing
+round   19  steps   116736  mean episode reward     3.90  (   56 s)
+round   20  steps   122880  mean episode reward     5.98  (   58 s)
+round   21  steps   129024  mean episode reward     6.85  (   61 s)  | replay: turned    254 deg, no landing
+round   22  steps   135168  mean episode reward     8.57  (   64 s)
+round   23  steps   141312  mean episode reward     9.76  (   67 s)
+round   24  steps   147456  mean episode reward     9.39  (   70 s)  | replay: turned    206 deg, no landing
+round   25  steps   153600  mean episode reward     9.47  (   73 s)
+round   26  steps   159744  mean episode reward    10.26  (   75 s)
+round   27  steps   165888  mean episode reward     9.68  (   78 s)  | replay: turned    117 deg, no landing
+round   28  steps   172032  mean episode reward     9.29  (   81 s)
+round   29  steps   178176  mean episode reward    10.56  (   84 s)
+round   30  steps   184320  mean episode reward    11.72  (   87 s)  | replay: turned    275 deg, no landing
+round   31  steps   190464  mean episode reward    12.55  (   90 s)
+round   32  steps   196608  mean episode reward    11.29  (   93 s)
+round   33  steps   202752  mean episode reward    11.38  (   95 s)  | replay: turned    164 deg, no landing
+round   34  steps   208896  mean episode reward    12.07  (   98 s)
+round   35  steps   215040  mean episode reward    12.73  (  101 s)
+round   36  steps   221184  mean episode reward    13.87  (  104 s)  | replay: turned    190 deg, no landing
+round   37  steps   227328  mean episode reward    14.21  (  107 s)
+round   38  steps   233472  mean episode reward    12.86  (  110 s)
+round   39  steps   239616  mean episode reward    14.06  (  113 s)  | replay: turned    296 deg, no landing
+round   40  steps   245760  mean episode reward    14.24  (  116 s)
+round   41  steps   251904  mean episode reward    16.01  (  119 s)
+round   42  steps   258048  mean episode reward    15.88  (  122 s)  | replay: turned    292 deg, no landing
+round   43  steps   264192  mean episode reward    14.82  (  125 s)
+round   44  steps   270336  mean episode reward    16.40  (  128 s)
+round   45  steps   276480  mean episode reward    15.92  (  130 s)  | replay: turned    253 deg, no landing
+round   46  steps   282624  mean episode reward    17.25  (  133 s)
+round   47  steps   288768  mean episode reward    16.66  (  136 s)
+round   48  steps   294912  mean episode reward    17.09  (  139 s)  | replay: turned    299 deg, no landing
+round   49  steps   301056  mean episode reward    18.63  (  142 s)
+round   50  steps   307200  mean episode reward    19.77  (  145 s)
+round   51  steps   313344  mean episode reward    17.68  (  148 s)  | replay: turned    251 deg, no landing
+round   52  steps   319488  mean episode reward    16.80  (  151 s)
+round   53  steps   325632  mean episode reward    19.36  (  154 s)
+round   54  steps   331776  mean episode reward    18.22  (  156 s)  | replay: turned    253 deg, no landing
+round   55  steps   337920  mean episode reward    17.86  (  159 s)
+round   56  steps   344064  mean episode reward    19.34  (  162 s)
+round   57  steps   350208  mean episode reward    20.70  (  165 s)  | replay: turned    264 deg, no landing
+round   58  steps   356352  mean episode reward    19.61  (  169 s)
+round   59  steps   362496  mean episode reward    20.42  (  172 s)
+round   60  steps   368640  mean episode reward    21.06  (  175 s)  | replay: turned    284 deg, no landing
+round   61  steps   374784  mean episode reward    21.62  (  178 s)
+round   62  steps   380928  mean episode reward    24.84  (  181 s)
+round   63  steps   387072  mean episode reward    23.33  (  183 s)  | replay: turned    297 deg, no landing
+round   64  steps   393216  mean episode reward    22.12  (  187 s)
+round   65  steps   399360  mean episode reward    21.66  (  189 s)
+round   66  steps   405504  mean episode reward    20.39  (  192 s)  | replay: turned    254 deg, no landing
+round   67  steps   411648  mean episode reward    22.32  (  195 s)
+round   68  steps   417792  mean episode reward    22.45  (  198 s)
+round   69  steps   423936  mean episode reward    21.28  (  201 s)  | replay: turned    250 deg, no landing
+round   70  steps   430080  mean episode reward    21.95  (  204 s)
+round   71  steps   436224  mean episode reward    21.57  (  207 s)
+round   72  steps   442368  mean episode reward    21.44  (  209 s)  | replay: turned    255 deg, no landing
+round   73  steps   448512  mean episode reward    22.13  (  212 s)
+round   74  steps   454656  mean episode reward    22.43  (  215 s)
+round   75  steps   460800  mean episode reward    21.95  (  218 s)  | replay: turned    379 deg, no landing
+round   76  steps   466944  mean episode reward    23.69  (  221 s)
+round   77  steps   473088  mean episode reward    23.40  (  224 s)
+round   78  steps   479232  mean episode reward    24.34  (  227 s)  | replay: turned    228 deg, no landing
+round   79  steps   485376  mean episode reward    21.57  (  230 s)
+round   80  steps   491520  mean episode reward    25.80  (  232 s)
+round   81  steps   497664  mean episode reward    24.30  (  235 s)  | replay: turned    284 deg, no landing
+round   82  steps   503808  mean episode reward    23.31  (  238 s)
+round   83  steps   509952  mean episode reward    26.14  (  241 s)
+round   84  steps   516096  mean episode reward    24.39  (  244 s)  | replay: turned    289 deg, no landing
+round   85  steps   522240  mean episode reward    24.93  (  247 s)
+round   86  steps   528384  mean episode reward    25.49  (  250 s)
+round   87  steps   534528  mean episode reward    26.01  (  252 s)  | replay: turned    275 deg, no landing
+round   88  steps   540672  mean episode reward    23.94  (  256 s)
+round   89  steps   546816  mean episode reward    26.35  (  258 s)
+round   90  steps   552960  mean episode reward    25.83  (  261 s)  | replay: turned    288 deg, no landing
+round   91  steps   559104  mean episode reward    26.71  (  264 s)
+round   92  steps   565248  mean episode reward    26.19  (  267 s)
+round   93  steps   571392  mean episode reward    27.39  (  270 s)  | replay: turned    297 deg, no landing
+round   94  steps   577536  mean episode reward    25.57  (  273 s)
+round   95  steps   583680  mean episode reward    27.80  (  275 s)
+round   96  steps   589824  mean episode reward    29.66  (  278 s)  | replay: turned    305 deg, no landing
+round   97  steps   595968  mean episode reward    28.16  (  281 s)
+round   98  steps   602112  mean episode reward    28.01  (  284 s)
+round   99  steps   608256  mean episode reward    29.51  (  287 s)  | replay: turned    227 deg, no landing
+round  100  steps   614400  mean episode reward    28.33  (  291 s)
+round  101  steps   620544  mean episode reward    29.77  (  294 s)
+round  102  steps   626688  mean episode reward    30.72  (  296 s)  | replay: turned    401 deg, no landing
+round  103  steps   632832  mean episode reward    27.51  (  299 s)
+round  104  steps   638976  mean episode reward    30.52  (  302 s)
+round  105  steps   645120  mean episode reward    30.29  (  305 s)  | replay: turned    306 deg, no landing
+round  106  steps   651264  mean episode reward    27.07  (  307 s)
+round  107  steps   657408  mean episode reward    31.84  (  310 s)
+round  108  steps   663552  mean episode reward    29.62  (  313 s)  | replay: turned    390 deg, no landing
+round  109  steps   669696  mean episode reward    29.77  (  316 s)
+round  110  steps   675840  mean episode reward    30.30  (  318 s)
+round  111  steps   681984  mean episode reward    29.94  (  321 s)  | replay: turned    218 deg, no landing
+round  112  steps   688128  mean episode reward    32.24  (  324 s)
+round  113  steps   694272  mean episode reward    28.93  (  327 s)
+round  114  steps   700416  mean episode reward    32.08  (  329 s)  | replay: turned    278 deg, no landing
+round  115  steps   706560  mean episode reward    32.80  (  333 s)
+round  116  steps   712704  mean episode reward    32.51  (  336 s)
+round  117  steps   718848  mean episode reward    33.32  (  338 s)  | replay: turned    298 deg, no landing
+round  118  steps   724992  mean episode reward    31.50  (  341 s)
+round  119  steps   731136  mean episode reward    32.26  (  344 s)
+round  120  steps   737280  mean episode reward    34.83  (  347 s)  | replay: turned    297 deg, no landing
+round  121  steps   743424  mean episode reward    32.02  (  350 s)
+round  122  steps   749568  mean episode reward    35.57  (  352 s)
+round  123  steps   755712  mean episode reward    33.41  (  355 s)  | replay: turned    300 deg, no landing
+round  124  steps   761856  mean episode reward    33.48  (  358 s)
+round  125  steps   768000  mean episode reward    33.99  (  361 s)
+round  126  steps   774144  mean episode reward    32.25  (  363 s)  | replay: turned    275 deg, no landing
+round  127  steps   780288  mean episode reward    35.38  (  367 s)
+round  128  steps   786432  mean episode reward    37.25  (  369 s)
+round  129  steps   792576  mean episode reward    35.29  (  372 s)  | replay: turned    294 deg, no landing
+round  130  steps   798720  mean episode reward    33.98  (  375 s)
+round  131  steps   804864  mean episode reward    35.43  (  377 s)
+round  132  steps   811008  mean episode reward    37.12  (  380 s)  | replay: turned    288 deg, no landing
+round  133  steps   817152  mean episode reward    34.65  (  383 s)
+round  134  steps   823296  mean episode reward    41.50  (  386 s)
+round  135  steps   829440  mean episode reward    36.26  (  388 s)  | replay: turned    276 deg, no landing
+round  136  steps   835584  mean episode reward    37.26  (  391 s)
+round  137  steps   841728  mean episode reward    35.03  (  394 s)
+round  138  steps   847872  mean episode reward    34.74  (  397 s)  | replay: turned    290 deg, no landing
+round  139  steps   854016  mean episode reward    37.31  (  400 s)
+round  140  steps   860160  mean episode reward    36.44  (  402 s)
+round  141  steps   866304  mean episode reward    38.51  (  405 s)  | replay: turned    316 deg, no landing
+round  142  steps   872448  mean episode reward    39.15  (  408 s)
+round  143  steps   878592  mean episode reward    39.10  (  411 s)
+round  144  steps   884736  mean episode reward    41.05  (  413 s)  | replay: turned    314 deg, no landing
+round  145  steps   890880  mean episode reward    40.33  (  416 s)
+round  146  steps   897024  mean episode reward    40.93  (  419 s)
+round  147  steps   903168  mean episode reward    37.41  (  422 s)  | replay: turned    294 deg, no landing
+round  148  steps   909312  mean episode reward    37.99  (  425 s)
+round  149  steps   915456  mean episode reward    41.33  (  428 s)
+round  150  steps   921600  mean episode reward    40.26  (  430 s)  | replay: turned    286 deg, no landing
+round  151  steps   927744  mean episode reward    39.28  (  433 s)
+round  152  steps   933888  mean episode reward    37.31  (  436 s)
+round  153  steps   940032  mean episode reward    39.92  (  438 s)  | replay: turned    301 deg, no landing
+round  154  steps   946176  mean episode reward    41.11  (  441 s)
+round  155  steps   952320  mean episode reward    43.14  (  444 s)
+round  156  steps   958464  mean episode reward    40.23  (  447 s)  | replay: turned    310 deg, no landing
+round  157  steps   964608  mean episode reward    44.26  (  450 s)
+round  158  steps   970752  mean episode reward    42.54  (  452 s)
+round  159  steps   976896  mean episode reward    41.15  (  455 s)  | replay: turned    284 deg, no landing
+round  160  steps   983040  mean episode reward    43.65  (  458 s)
+round  161  steps   989184  mean episode reward    45.18  (  461 s)
+round  162  steps   995328  mean episode reward    43.63  (  464 s)  | replay: turned    277 deg, no landing
+round  163  steps  1001472  mean episode reward    44.54  (  467 s)
+round  164  steps  1007616  mean episode reward    43.88  (  470 s)
+round  165  steps  1013760  mean episode reward    43.07  (  473 s)  | replay: turned    280 deg, no landing
+round  166  steps  1019904  mean episode reward    42.48  (  476 s)
+round  167  steps  1026048  mean episode reward    41.82  (  478 s)
+round  168  steps  1032192  mean episode reward    42.60  (  481 s)  | replay: turned    273 deg, no landing
+round  169  steps  1038336  mean episode reward    38.36  (  484 s)
+round  170  steps  1044480  mean episode reward    41.41  (  487 s)
+round  171  steps  1050624  mean episode reward    43.10  (  489 s)  | replay: turned    315 deg, no landing
+round  172  steps  1056768  mean episode reward    45.04  (  493 s)
+round  173  steps  1062912  mean episode reward    45.75  (  495 s)
+round  174  steps  1069056  mean episode reward    46.51  (  498 s)  | replay: turned    325 deg, no landing
+round  175  steps  1075200  mean episode reward    43.53  (  501 s)
+round  176  steps  1081344  mean episode reward    42.78  (  504 s)
+round  177  steps  1087488  mean episode reward    48.99  (  506 s)  | replay: turned    306 deg, no landing
+round  178  steps  1093632  mean episode reward    43.78  (  509 s)
+round  179  steps  1099776  mean episode reward    46.50  (  512 s)
+round  180  steps  1105920  mean episode reward    44.81  (  515 s)  | replay: turned    294 deg, no landing
+round  181  steps  1112064  mean episode reward    46.51  (  519 s)
+round  182  steps  1118208  mean episode reward    45.44  (  522 s)
+round  183  steps  1124352  mean episode reward    45.34  (  525 s)  | replay: turned    297 deg, no landing
+round  184  steps  1130496  mean episode reward    46.86  (  528 s)
+round  185  steps  1136640  mean episode reward    45.25  (  531 s)
+round  186  steps  1142784  mean episode reward    46.04  (  534 s)  | replay: turned    387 deg, no landing
+round  187  steps  1148928  mean episode reward    49.88  (  537 s)
+round  188  steps  1155072  mean episode reward    45.45  (  540 s)
+round  189  steps  1161216  mean episode reward    44.86  (  543 s)  | replay: turned    338 deg, no landing
+round  190  steps  1167360  mean episode reward    44.09  (  546 s)
+round  191  steps  1173504  mean episode reward    50.18  (  549 s)
+round  192  steps  1179648  mean episode reward    48.17  (  552 s)  | replay: turned    297 deg, no landing
+round  193  steps  1185792  mean episode reward    45.59  (  555 s)
+round  194  steps  1191936  mean episode reward    48.98  (  558 s)
+round  195  steps  1198080  mean episode reward    47.61  (  560 s)  | replay: turned    309 deg, no landing
+round  196  steps  1204224  mean episode reward    49.23  (  564 s)
+round  197  steps  1210368  mean episode reward    48.23  (  566 s)
+round  198  steps  1216512  mean episode reward    46.18  (  569 s)  | replay: turned    296 deg, no landing
+round  199  steps  1222656  mean episode reward    48.81  (  572 s)
+round  200  steps  1228800  mean episode reward    50.89  (  574 s)
+round  201  steps  1234944  mean episode reward    47.87  (  577 s)  | replay: turned    297 deg, no landing
+round  202  steps  1241088  mean episode reward    47.03  (  580 s)
+round  203  steps  1247232  mean episode reward    46.36  (  583 s)
+round  204  steps  1253376  mean episode reward    50.13  (  586 s)  | replay: turned    294 deg, no landing
+round  205  steps  1259520  mean episode reward    50.11  (  589 s)
+round  206  steps  1265664  mean episode reward    46.42  (  591 s)
+round  207  steps  1271808  mean episode reward    49.61  (  594 s)  | replay: turned    306 deg, no landing
+round  208  steps  1277952  mean episode reward    49.48  (  597 s)
+round  209  steps  1284096  mean episode reward    47.80  (  599 s)
+round  210  steps  1290240  mean episode reward    52.75  (  602 s)  | replay: turned    303 deg, no landing
+round  211  steps  1296384  mean episode reward    53.53  (  605 s)
+round  212  steps  1302528  mean episode reward    50.52  (  608 s)
+round  213  steps  1308672  mean episode reward    52.11  (  610 s)  | replay: turned    302 deg, no landing
+round  214  steps  1314816  mean episode reward    49.78  (  613 s)
+round  215  steps  1320960  mean episode reward    51.25  (  616 s)
+round  216  steps  1327104  mean episode reward    50.82  (  619 s)  | replay: turned    298 deg, no landing
+round  217  steps  1333248  mean episode reward    47.64  (  622 s)
+round  218  steps  1339392  mean episode reward    53.61  (  624 s)
+round  219  steps  1345536  mean episode reward    47.30  (  627 s)  | replay: turned    296 deg, no landing
+round  220  steps  1351680  mean episode reward    50.64  (  630 s)
+round  221  steps  1357824  mean episode reward    48.79  (  632 s)
+round  222  steps  1363968  mean episode reward    49.31  (  635 s)  | replay: turned    297 deg, no landing
+round  223  steps  1370112  mean episode reward    55.17  (  638 s)
+round  224  steps  1376256  mean episode reward    51.46  (  640 s)
+round  225  steps  1382400  mean episode reward    56.00  (  643 s)  | replay: turned    306 deg, no landing
+round  226  steps  1388544  mean episode reward    52.03  (  646 s)
+round  227  steps  1394688  mean episode reward    50.34  (  649 s)
+round  228  steps  1400832  mean episode reward    52.82  (  651 s)  | replay: turned    294 deg, no landing
+round  229  steps  1406976  mean episode reward    50.97  (  654 s)
+round  230  steps  1413120  mean episode reward    51.06  (  657 s)
+round  231  steps  1419264  mean episode reward    52.80  (  660 s)  | replay: turned    309 deg, no landing
+round  232  steps  1425408  mean episode reward    50.44  (  663 s)
+round  233  steps  1431552  mean episode reward    54.21  (  665 s)
+round  234  steps  1437696  mean episode reward    58.72  (  668 s)  | replay: turned    303 deg, no landing
+round  235  steps  1443840  mean episode reward    51.76  (  671 s)
+round  236  steps  1449984  mean episode reward    53.53  (  673 s)
+round  237  steps  1456128  mean episode reward    50.98  (  676 s)  | replay: turned    303 deg, no landing
+round  238  steps  1462272  mean episode reward    49.02  (  679 s)
+round  239  steps  1468416  mean episode reward    57.57  (  682 s)
+round  240  steps  1474560  mean episode reward    60.03  (  684 s)  | replay: turned    310 deg, no landing
+round  241  steps  1480704  mean episode reward    53.71  (  687 s)
+round  242  steps  1486848  mean episode reward    52.14  (  690 s)
+round  243  steps  1492992  mean episode reward    49.49  (  692 s)  | replay: turned    294 deg, no landing
+round  244  steps  1499136  mean episode reward    59.76  (  695 s)
+round  245  steps  1505280  mean episode reward    49.98  (  698 s)
+round  246  steps  1511424  mean episode reward    58.68  (  701 s)  | replay: turned    316 deg, no landing
+round  247  steps  1517568  mean episode reward    56.27  (  704 s)
+round  248  steps  1523712  mean episode reward    54.78  (  706 s)
+round  249  steps  1529856  mean episode reward    59.93  (  709 s)  | replay: turned    333 deg, no landing
+round  250  steps  1536000  mean episode reward    51.03  (  712 s)
+round  251  steps  1542144  mean episode reward    56.90  (  714 s)
+round  252  steps  1548288  mean episode reward    54.52  (  717 s)  | replay: turned    300 deg, no landing
+round  253  steps  1554432  mean episode reward    56.48  (  720 s)
+round  254  steps  1560576  mean episode reward    59.01  (  722 s)
+round  255  steps  1566720  mean episode reward    51.43  (  725 s)  | replay: turned    302 deg, no landing
+round  256  steps  1572864  mean episode reward    60.42  (  728 s)
+round  257  steps  1579008  mean episode reward    57.27  (  731 s)
+round  258  steps  1585152  mean episode reward    55.89  (  733 s)  | replay: turned    306 deg, no landing
+round  259  steps  1591296  mean episode reward    52.23  (  736 s)
+round  260  steps  1597440  mean episode reward    54.63  (  739 s)
+round  261  steps  1603584  mean episode reward    58.13  (  742 s)  | replay: turned    299 deg, no landing
+round  262  steps  1609728  mean episode reward    58.55  (  744 s)
+round  263  steps  1615872  mean episode reward    57.40  (  747 s)
+round  264  steps  1622016  mean episode reward    60.36  (  750 s)  | replay: turned    309 deg, no landing
+round  265  steps  1628160  mean episode reward    56.82  (  753 s)
+round  266  steps  1634304  mean episode reward    58.47  (  755 s)
+round  267  steps  1640448  mean episode reward    60.60  (  758 s)  | replay: turned    288 deg, no landing
+round  268  steps  1646592  mean episode reward    51.39  (  761 s)
+round  269  steps  1652736  mean episode reward    54.85  (  764 s)
+round  270  steps  1658880  mean episode reward    55.22  (  767 s)  | replay: turned    303 deg, no landing
+round  271  steps  1665024  mean episode reward    54.26  (  770 s)
+round  272  steps  1671168  mean episode reward    56.41  (  773 s)
+round  273  steps  1677312  mean episode reward    59.71  (  775 s)  | replay: turned    302 deg, no landing
+round  274  steps  1683456  mean episode reward    53.90  (  778 s)
+round  275  steps  1689600  mean episode reward    59.43  (  781 s)
+round  276  steps  1695744  mean episode reward    60.17  (  784 s)  | replay: turned    308 deg, no landing
+round  277  steps  1701888  mean episode reward    55.50  (  787 s)
+round  278  steps  1708032  mean episode reward    57.61  (  789 s)
+round  279  steps  1714176  mean episode reward    56.86  (  792 s)  | replay: turned    297 deg, no landing
+round  280  steps  1720320  mean episode reward    59.35  (  795 s)
+round  281  steps  1726464  mean episode reward    59.75  (  798 s)
+round  282  steps  1732608  mean episode reward    57.23  (  800 s)  | replay: turned    306 deg, no landing
+round  283  steps  1738752  mean episode reward    61.44  (  803 s)
+round  284  steps  1744896  mean episode reward    63.03  (  807 s)
+round  285  steps  1751040  mean episode reward    58.66  (  810 s)  | replay: turned    278 deg, no landing
+round  286  steps  1757184  mean episode reward    58.60  (  813 s)
+round  287  steps  1763328  mean episode reward    58.08  (  815 s)
+round  288  steps  1769472  mean episode reward    58.84  (  818 s)  | replay: turned    298 deg, no landing
+round  289  steps  1775616  mean episode reward    60.48  (  821 s)
+round  290  steps  1781760  mean episode reward    58.29  (  824 s)
+round  291  steps  1787904  mean episode reward    64.73  (  826 s)  | replay: turned    318 deg, no landing
+round  292  steps  1794048  mean episode reward    57.48  (  829 s)
+round  293  steps  1800192  mean episode reward    55.77  (  832 s)
+round  294  steps  1806336  mean episode reward    60.23  (  835 s)  | replay: turned    317 deg, no landing
+round  295  steps  1812480  mean episode reward    55.17  (  838 s)
+round  296  steps  1818624  mean episode reward    60.12  (  840 s)
+round  297  steps  1824768  mean episode reward    60.56  (  843 s)  | replay: turned    319 deg, no landing
+round  298  steps  1830912  mean episode reward    51.08  (  846 s)
+round  299  steps  1837056  mean episode reward    57.50  (  849 s)
+round  300  steps  1843200  mean episode reward    54.73  (  851 s)  | replay: turned    306 deg, no landing
+round  301  steps  1849344  mean episode reward    57.16  (  855 s)
+round  302  steps  1855488  mean episode reward    61.71  (  857 s)
+round  303  steps  1861632  mean episode reward    59.46  (  860 s)  | replay: turned    284 deg, no landing
+round  304  steps  1867776  mean episode reward    59.87  (  863 s)
+round  305  steps  1873920  mean episode reward    59.31  (  865 s)
+round  306  steps  1880064  mean episode reward    60.31  (  868 s)  | replay: turned    315 deg, no landing
+round  307  steps  1886208  mean episode reward    57.63  (  871 s)
+round  308  steps  1892352  mean episode reward    64.68  (  874 s)
+round  309  steps  1898496  mean episode reward    58.31  (  876 s)  | replay: turned    308 deg, no landing
+round  310  steps  1904640  mean episode reward    63.56  (  879 s)
+round  311  steps  1910784  mean episode reward    60.94  (  882 s)
+round  312  steps  1916928  mean episode reward    58.11  (  885 s)  | replay: turned    290 deg, no landing
+round  313  steps  1923072  mean episode reward    64.36  (  888 s)
+round  314  steps  1929216  mean episode reward    59.31  (  890 s)
+round  315  steps  1935360  mean episode reward    56.10  (  893 s)  | replay: turned    293 deg, no landing
+round  316  steps  1941504  mean episode reward    57.89  (  896 s)
+round  317  steps  1947648  mean episode reward    56.78  (  899 s)
+round  318  steps  1953792  mean episode reward    61.12  (  901 s)  | replay: turned    321 deg, no landing
+round  319  steps  1959936  mean episode reward    62.75  (  904 s)
+round  320  steps  1966080  mean episode reward    57.76  (  907 s)
+round  321  steps  1972224  mean episode reward    58.00  (  910 s)  | replay: turned    294 deg, no landing
+round  322  steps  1978368  mean episode reward    64.24  (  912 s)
+round  323  steps  1984512  mean episode reward    55.66  (  915 s)
+round  324  steps  1990656  mean episode reward    62.92  (  918 s)  | replay: turned    301 deg, no landing
+round  325  steps  1996800  mean episode reward    67.07  (  921 s)
+round  326  steps  2002944  mean episode reward    61.23  (  923 s)
+round  327  steps  2009088  mean episode reward    58.73  (  926 s)  | replay: turned    289 deg, no landing
+round  328  steps  2015232  mean episode reward    61.26  (  929 s)
+round  329  steps  2021376  mean episode reward    60.53  (  932 s)
+round  330  steps  2027520  mean episode reward    67.02  (  934 s)  | replay: turned    308 deg, no landing
+round  331  steps  2033664  mean episode reward    63.86  (  937 s)
+round  332  steps  2039808  mean episode reward    69.43  (  940 s)
+round  333  steps  2045952  mean episode reward    58.87  (  943 s)  | replay: turned    310 deg, no landing
+round  334  steps  2052096  mean episode reward    63.68  (  946 s)
+round  335  steps  2058240  mean episode reward    64.49  (  948 s)
+round  336  steps  2064384  mean episode reward    62.38  (  951 s)  | replay: turned    316 deg, no landing
+round  337  steps  2070528  mean episode reward    62.35  (  954 s)
+round  338  steps  2076672  mean episode reward    60.68  (  957 s)
+round  339  steps  2082816  mean episode reward    63.90  (  959 s)  | replay: turned    293 deg, no landing
+round  340  steps  2088960  mean episode reward    62.13  (  962 s)
+round  341  steps  2095104  mean episode reward    61.51  (  965 s)
+round  342  steps  2101248  mean episode reward    63.82  (  967 s)  | replay: turned    297 deg, no landing
+round  343  steps  2107392  mean episode reward    68.42  (  970 s)
+round  344  steps  2113536  mean episode reward    66.16  (  973 s)
+round  345  steps  2119680  mean episode reward    60.98  (  976 s)  | replay: turned    283 deg, no landing
+round  346  steps  2125824  mean episode reward    61.39  (  979 s)
+round  347  steps  2131968  mean episode reward    63.16  (  981 s)
+round  348  steps  2138112  mean episode reward    64.04  (  984 s)  | replay: turned    297 deg, no landing
+round  349  steps  2144256  mean episode reward    60.95  (  987 s)
+round  350  steps  2150400  mean episode reward    59.81  (  990 s)
+round  351  steps  2156544  mean episode reward    67.21  (  992 s)  | replay: turned    307 deg, no landing
+round  352  steps  2162688  mean episode reward    61.22  (  995 s)
+round  353  steps  2168832  mean episode reward    64.02  (  998 s)
+round  354  steps  2174976  mean episode reward    60.89  ( 1001 s)  | replay: turned    300 deg, no landing
+round  355  steps  2181120  mean episode reward    64.42  ( 1004 s)
+round  356  steps  2187264  mean episode reward    65.70  ( 1006 s)
+round  357  steps  2193408  mean episode reward    67.26  ( 1009 s)  | replay: turned    297 deg, no landing
+round  358  steps  2199552  mean episode reward    63.77  ( 1012 s)
+round  359  steps  2205696  mean episode reward    62.05  ( 1014 s)
+round  360  steps  2211840  mean episode reward    67.23  ( 1017 s)  | replay: turned    312 deg, no landing
+round  361  steps  2217984  mean episode reward    61.91  ( 1020 s)
+round  362  steps  2224128  mean episode reward    64.33  ( 1023 s)
+round  363  steps  2230272  mean episode reward    64.76  ( 1025 s)  | replay: turned    315 deg, no landing
+round  364  steps  2236416  mean episode reward    63.53  ( 1028 s)
+round  365  steps  2242560  mean episode reward    62.95  ( 1031 s)
+round  366  steps  2248704  mean episode reward    62.71  ( 1033 s)  | replay: turned    316 deg, no landing
+round  367  steps  2254848  mean episode reward    59.50  ( 1037 s)
+round  368  steps  2260992  mean episode reward    60.47  ( 1039 s)
+round  369  steps  2267136  mean episode reward    65.81  ( 1042 s)  | replay: turned    306 deg, no landing
+round  370  steps  2273280  mean episode reward    62.41  ( 1045 s)
+round  371  steps  2279424  mean episode reward    64.93  ( 1048 s)
+round  372  steps  2285568  mean episode reward    62.12  ( 1050 s)  | replay: turned    300 deg, no landing
+round  373  steps  2291712  mean episode reward    63.65  ( 1053 s)
+round  374  steps  2297856  mean episode reward    60.08  ( 1056 s)
+round  375  steps  2304000  mean episode reward    62.10  ( 1059 s)  | replay: turned    300 deg, no landing
+round  376  steps  2310144  mean episode reward    66.21  ( 1062 s)
+round  377  steps  2316288  mean episode reward    60.33  ( 1065 s)
+round  378  steps  2322432  mean episode reward    68.76  ( 1068 s)  | replay: turned    291 deg, no landing
+round  379  steps  2328576  mean episode reward    66.36  ( 1071 s)
+round  380  steps  2334720  mean episode reward    67.54  ( 1073 s)
+round  381  steps  2340864  mean episode reward    61.66  ( 1076 s)  | replay: turned    288 deg, no landing
+round  382  steps  2347008  mean episode reward    59.75  ( 1079 s)
+round  383  steps  2353152  mean episode reward    61.62  ( 1081 s)
+round  384  steps  2359296  mean episode reward    66.78  ( 1084 s)  | replay: turned    303 deg, no landing
+round  385  steps  2365440  mean episode reward    62.41  ( 1087 s)
+round  386  steps  2371584  mean episode reward    70.56  ( 1090 s)
+round  387  steps  2377728  mean episode reward    63.92  ( 1092 s)  | replay: turned    297 deg, no landing
+round  388  steps  2383872  mean episode reward    67.12  ( 1095 s)
+round  389  steps  2390016  mean episode reward    71.17  ( 1098 s)
+round  390  steps  2396160  mean episode reward    63.86  ( 1101 s)  | replay: turned    307 deg, no landing
+round  391  steps  2402304  mean episode reward    65.37  ( 1104 s)
+round  392  steps  2408448  mean episode reward    69.29  ( 1106 s)
+round  393  steps  2414592  mean episode reward    64.70  ( 1109 s)  | replay: turned    296 deg, no landing
+round  394  steps  2420736  mean episode reward    63.76  ( 1112 s)
+round  395  steps  2426880  mean episode reward    66.87  ( 1115 s)
+round  396  steps  2433024  mean episode reward    64.71  ( 1118 s)  | replay: turned    306 deg, no landing
+round  397  steps  2439168  mean episode reward    66.85  ( 1121 s)
+round  398  steps  2445312  mean episode reward    68.37  ( 1123 s)
+round  399  steps  2451456  mean episode reward    69.10  ( 1126 s)  | replay: turned    317 deg, no landing
+round  400  steps  2457600  mean episode reward    65.85  ( 1129 s)
+round  401  steps  2463744  mean episode reward    60.56  ( 1132 s)
+round  402  steps  2469888  mean episode reward    62.25  ( 1134 s)  | replay: turned    300 deg, no landing
+round  403  steps  2476032  mean episode reward    61.37  ( 1137 s)
+round  404  steps  2482176  mean episode reward    66.21  ( 1140 s)
+round  405  steps  2488320  mean episode reward    67.39  ( 1143 s)  | replay: turned    305 deg, no landing
+round  406  steps  2494464  mean episode reward    66.60  ( 1146 s)
+round  407  steps  2500608  mean episode reward    67.23  ( 1148 s)
+round  408  steps  2506752  mean episode reward    68.64  ( 1151 s)  | replay: turned    307 deg, no landing
+round  409  steps  2512896  mean episode reward    63.86  ( 1154 s)
+round  410  steps  2519040  mean episode reward    63.95  ( 1157 s)
+round  411  steps  2525184  mean episode reward    63.53  ( 1159 s)  | replay: turned    307 deg, no landing
+round  412  steps  2531328  mean episode reward    65.50  ( 1162 s)
+round  413  steps  2537472  mean episode reward    59.78  ( 1165 s)
+round  414  steps  2543616  mean episode reward    68.21  ( 1168 s)  | replay: turned    301 deg, no landing
+round  415  steps  2549760  mean episode reward    69.83  ( 1171 s)
+round  416  steps  2555904  mean episode reward    70.62  ( 1173 s)
+round  417  steps  2562048  mean episode reward    69.09  ( 1176 s)  | replay: turned    330 deg, no landing
+round  418  steps  2568192  mean episode reward    65.67  ( 1179 s)
+round  419  steps  2574336  mean episode reward    65.49  ( 1182 s)
+round  420  steps  2580480  mean episode reward    68.86  ( 1184 s)  | replay: turned    316 deg, no landing
+round  421  steps  2586624  mean episode reward    60.91  ( 1187 s)
+round  422  steps  2592768  mean episode reward    68.01  ( 1190 s)
+round  423  steps  2598912  mean episode reward    64.33  ( 1193 s)  | replay: turned    313 deg, no landing
+round  424  steps  2605056  mean episode reward    65.80  ( 1196 s)
+round  425  steps  2611200  mean episode reward    70.25  ( 1198 s)
+round  426  steps  2617344  mean episode reward    62.43  ( 1201 s)  | replay: turned    284 deg, no landing
+round  427  steps  2623488  mean episode reward    64.06  ( 1204 s)
+round  428  steps  2629632  mean episode reward    67.27  ( 1207 s)
+round  429  steps  2635776  mean episode reward    61.59  ( 1209 s)  | replay: turned    300 deg, no landing
+round  430  steps  2641920  mean episode reward    63.68  ( 1212 s)
+round  431  steps  2648064  mean episode reward    68.95  ( 1215 s)
+round  432  steps  2654208  mean episode reward    67.06  ( 1218 s)  | replay: turned    297 deg, no landing
+round  433  steps  2660352  mean episode reward    65.49  ( 1221 s)
+round  434  steps  2666496  mean episode reward    65.05  ( 1224 s)
+round  435  steps  2672640  mean episode reward    68.95  ( 1227 s)  | replay: turned    290 deg, no landing
+round  436  steps  2678784  mean episode reward    65.31  ( 1230 s)
+round  437  steps  2684928  mean episode reward    65.58  ( 1232 s)
+round  438  steps  2691072  mean episode reward    72.23  ( 1235 s)  | replay: turned    318 deg, no landing
+round  439  steps  2697216  mean episode reward    68.67  ( 1238 s)
+round  440  steps  2703360  mean episode reward    66.85  ( 1241 s)
+round  441  steps  2709504  mean episode reward    70.73  ( 1244 s)  | replay: turned    307 deg, no landing
+round  442  steps  2715648  mean episode reward    64.94  ( 1247 s)
+round  443  steps  2721792  mean episode reward    67.41  ( 1250 s)
+round  444  steps  2727936  mean episode reward    73.02  ( 1252 s)  | replay: turned    306 deg, no landing
+round  445  steps  2734080  mean episode reward    65.54  ( 1255 s)
+round  446  steps  2740224  mean episode reward    72.39  ( 1258 s)
+round  447  steps  2746368  mean episode reward    66.60  ( 1261 s)  | replay: turned    272 deg, no landing
+round  448  steps  2752512  mean episode reward    68.87  ( 1264 s)
+round  449  steps  2758656  mean episode reward    70.47  ( 1266 s)
+round  450  steps  2764800  mean episode reward    69.71  ( 1269 s)  | replay: turned    309 deg, no landing
+round  451  steps  2770944  mean episode reward    70.50  ( 1272 s)
+round  452  steps  2777088  mean episode reward    64.45  ( 1275 s)
+round  453  steps  2783232  mean episode reward    68.05  ( 1277 s)  | replay: turned    306 deg, no landing
+round  454  steps  2789376  mean episode reward    70.81  ( 1280 s)
+round  455  steps  2795520  mean episode reward    64.55  ( 1283 s)
+round  456  steps  2801664  mean episode reward    67.92  ( 1286 s)  | replay: turned    303 deg, no landing
+round  457  steps  2807808  mean episode reward    72.29  ( 1289 s)
+round  458  steps  2813952  mean episode reward    64.53  ( 1291 s)
+round  459  steps  2820096  mean episode reward    66.92  ( 1294 s)  | replay: turned    306 deg, no landing
+round  460  steps  2826240  mean episode reward    69.98  ( 1297 s)
+round  461  steps  2832384  mean episode reward    68.81  ( 1300 s)
+round  462  steps  2838528  mean episode reward    70.89  ( 1302 s)  | replay: turned    319 deg, no landing
+round  463  steps  2844672  mean episode reward    63.72  ( 1305 s)
+round  464  steps  2850816  mean episode reward    71.60  ( 1308 s)
+round  465  steps  2856960  mean episode reward    71.01  ( 1311 s)  | replay: turned    311 deg, no landing
+round  466  steps  2863104  mean episode reward    64.59  ( 1314 s)
+round  467  steps  2869248  mean episode reward    72.68  ( 1316 s)
+round  468  steps  2875392  mean episode reward    69.41  ( 1319 s)  | replay: turned    315 deg, no landing
+round  469  steps  2881536  mean episode reward    76.17  ( 1322 s)
+round  470  steps  2887680  mean episode reward    70.63  ( 1325 s)
+round  471  steps  2893824  mean episode reward    61.75  ( 1328 s)  | replay: turned    305 deg, no landing
+round  472  steps  2899968  mean episode reward    70.27  ( 1331 s)
+round  473  steps  2906112  mean episode reward    64.41  ( 1333 s)
+round  474  steps  2912256  mean episode reward    69.41  ( 1336 s)  | replay: turned    320 deg, no landing
+round  475  steps  2918400  mean episode reward    71.96  ( 1339 s)
+round  476  steps  2924544  mean episode reward    69.69  ( 1342 s)
+round  477  steps  2930688  mean episode reward    69.88  ( 1345 s)  | replay: turned    302 deg, no landing
+round  478  steps  2936832  mean episode reward    71.00  ( 1348 s)
+round  479  steps  2942976  mean episode reward    67.75  ( 1351 s)
+round  480  steps  2949120  mean episode reward    70.87  ( 1354 s)  | replay: turned    313 deg, no landing
+round  481  steps  2955264  mean episode reward    62.46  ( 1357 s)
+round  482  steps  2961408  mean episode reward    70.45  ( 1360 s)
+round  483  steps  2967552  mean episode reward    69.20  ( 1363 s)  | replay: turned    307 deg, no landing
+round  484  steps  2973696  mean episode reward    66.48  ( 1366 s)
+round  485  steps  2979840  mean episode reward    72.43  ( 1368 s)
+round  486  steps  2985984  mean episode reward    71.98  ( 1371 s)  | replay: turned    280 deg, no landing
+round  487  steps  2992128  mean episode reward    67.69  ( 1374 s)
+round  488  steps  2998272  mean episode reward    70.67  ( 1376 s)
+round  489  steps  3004416  mean episode reward    71.51  ( 1379 s)  | replay: turned    304 deg, no landing
+round  490  steps  3010560  mean episode reward    71.39  ( 1382 s)
+round  491  steps  3016704  mean episode reward    65.19  ( 1385 s)
+round  492  steps  3022848  mean episode reward    69.27  ( 1388 s)  | replay: turned    321 deg, no landing
+round  493  steps  3028992  mean episode reward    67.72  ( 1391 s)
+round  494  steps  3035136  mean episode reward    67.08  ( 1393 s)
+round  495  steps  3041280  mean episode reward    76.24  ( 1396 s)  | replay: turned    312 deg, no landing
+round  496  steps  3047424  mean episode reward    71.61  ( 1399 s)
+round  497  steps  3053568  mean episode reward    70.11  ( 1402 s)
+round  498  steps  3059712  mean episode reward    69.23  ( 1404 s)  | replay: turned    301 deg, no landing
+round  499  steps  3065856  mean episode reward    67.89  ( 1407 s)
+round  500  steps  3072000  mean episode reward    66.47  ( 1410 s)
+round  501  steps  3078144  mean episode reward    64.10  ( 1413 s)  | replay: turned    308 deg, no landing
+round  502  steps  3084288  mean episode reward    69.98  ( 1416 s)
+round  503  steps  3090432  mean episode reward    62.74  ( 1418 s)
+round  504  steps  3096576  mean episode reward    67.80  ( 1421 s)  | replay: turned    314 deg, no landing
+round  505  steps  3102720  mean episode reward    69.74  ( 1424 s)
+round  506  steps  3108864  mean episode reward    68.85  ( 1427 s)
+round  507  steps  3115008  mean episode reward    70.30  ( 1429 s)  | replay: turned    296 deg, no landing
+round  508  steps  3121152  mean episode reward    70.83  ( 1432 s)
+round  509  steps  3127296  mean episode reward    70.58  ( 1435 s)
+round  510  steps  3133440  mean episode reward    72.26  ( 1438 s)  | replay: turned    319 deg, no landing
+round  511  steps  3139584  mean episode reward    71.52  ( 1441 s)
+round  512  steps  3145728  mean episode reward    67.72  ( 1443 s)
+round  513  steps  3151872  mean episode reward    67.49  ( 1446 s)  | replay: turned    306 deg, no landing
+round  514  steps  3158016  mean episode reward    70.70  ( 1449 s)
+round  515  steps  3164160  mean episode reward    74.72  ( 1452 s)
+round  516  steps  3170304  mean episode reward    74.36  ( 1454 s)  | replay: turned    314 deg, no landing
+round  517  steps  3176448  mean episode reward    69.72  ( 1458 s)
+round  518  steps  3182592  mean episode reward    68.50  ( 1460 s)
+round  519  steps  3188736  mean episode reward    67.56  ( 1464 s)  | replay: turned    283 deg, no landing
+round  520  steps  3194880  mean episode reward    66.08  ( 1467 s)
+round  521  steps  3201024  mean episode reward    62.62  ( 1470 s)
+round  522  steps  3207168  mean episode reward    73.79  ( 1473 s)  | replay: turned    296 deg, no landing
+round  523  steps  3213312  mean episode reward    73.56  ( 1476 s)
+round  524  steps  3219456  mean episode reward    67.92  ( 1479 s)
+round  525  steps  3225600  mean episode reward    68.19  ( 1483 s)  | replay: turned    289 deg, no landing
+round  526  steps  3231744  mean episode reward    69.70  ( 1486 s)
+round  527  steps  3237888  mean episode reward    68.73  ( 1489 s)
+round  528  steps  3244032  mean episode reward    70.79  ( 1492 s)  | replay: turned    294 deg, no landing
+round  529  steps  3250176  mean episode reward    66.09  ( 1495 s)
+round  530  steps  3256320  mean episode reward    71.70  ( 1498 s)
+round  531  steps  3262464  mean episode reward    69.23  ( 1501 s)  | replay: turned    299 deg, no landing
+round  532  steps  3268608  mean episode reward    69.44  ( 1504 s)
+round  533  steps  3274752  mean episode reward    72.28  ( 1508 s)
+round  534  steps  3280896  mean episode reward    71.92  ( 1511 s)  | replay: turned    319 deg, no landing
+round  535  steps  3287040  mean episode reward    74.93  ( 1514 s)
+round  536  steps  3293184  mean episode reward    70.13  ( 1517 s)
+round  537  steps  3299328  mean episode reward    65.56  ( 1519 s)  | replay: turned    323 deg, no landing
+round  538  steps  3305472  mean episode reward    71.07  ( 1523 s)
+round  539  steps  3311616  mean episode reward    67.83  ( 1526 s)
+round  540  steps  3317760  mean episode reward    69.77  ( 1529 s)  | replay: turned    313 deg, no landing
+round  541  steps  3323904  mean episode reward    69.08  ( 1532 s)
+round  542  steps  3330048  mean episode reward    73.62  ( 1535 s)
+round  543  steps  3336192  mean episode reward    69.27  ( 1538 s)  | replay: turned    307 deg, no landing
+round  544  steps  3342336  mean episode reward    72.20  ( 1541 s)
+round  545  steps  3348480  mean episode reward    70.31  ( 1543 s)
+round  546  steps  3354624  mean episode reward    70.80  ( 1546 s)  | replay: turned    300 deg, no landing
+round  547  steps  3360768  mean episode reward    66.64  ( 1549 s)
+round  548  steps  3366912  mean episode reward    65.57  ( 1552 s)
+round  549  steps  3373056  mean episode reward    70.01  ( 1554 s)  | replay: turned    292 deg, no landing
+round  550  steps  3379200  mean episode reward    66.74  ( 1557 s)
+round  551  steps  3385344  mean episode reward    69.69  ( 1560 s)
+round  552  steps  3391488  mean episode reward    67.64  ( 1563 s)  | replay: turned    300 deg, no landing
+round  553  steps  3397632  mean episode reward    69.37  ( 1566 s)
+round  554  steps  3403776  mean episode reward    67.23  ( 1569 s)
+round  555  steps  3409920  mean episode reward    72.07  ( 1572 s)  | replay: turned    299 deg, no landing
+round  556  steps  3416064  mean episode reward    68.94  ( 1575 s)
+round  557  steps  3422208  mean episode reward    76.40  ( 1578 s)
+round  558  steps  3428352  mean episode reward    73.79  ( 1581 s)  | replay: turned    305 deg, no landing
+round  559  steps  3434496  mean episode reward    73.34  ( 1584 s)
+round  560  steps  3440640  mean episode reward    75.31  ( 1586 s)
+round  561  steps  3446784  mean episode reward    76.71  ( 1589 s)  | replay: turned    294 deg, no landing
+round  562  steps  3452928  mean episode reward    74.67  ( 1592 s)
+round  563  steps  3459072  mean episode reward    71.40  ( 1595 s)
+round  564  steps  3465216  mean episode reward    78.54  ( 1598 s)  | replay: turned    303 deg, no landing
+round  565  steps  3471360  mean episode reward    72.83  ( 1601 s)
+round  566  steps  3477504  mean episode reward    70.71  ( 1603 s)
+round  567  steps  3483648  mean episode reward    72.52  ( 1606 s)  | replay: turned    300 deg, no landing
+round  568  steps  3489792  mean episode reward    66.21  ( 1609 s)
+round  569  steps  3495936  mean episode reward    73.72  ( 1612 s)
+round  570  steps  3502080  mean episode reward    73.21  ( 1615 s)  | replay: turned    305 deg, no landing
+round  571  steps  3508224  mean episode reward    68.15  ( 1618 s)
+round  572  steps  3514368  mean episode reward    72.88  ( 1621 s)
+round  573  steps  3520512  mean episode reward    74.93  ( 1624 s)  | replay: turned    306 deg, no landing
+round  574  steps  3526656  mean episode reward    69.47  ( 1628 s)
+round  575  steps  3532800  mean episode reward    72.67  ( 1630 s)
+round  576  steps  3538944  mean episode reward    66.67  ( 1633 s)  | replay: turned    307 deg, no landing
+round  577  steps  3545088  mean episode reward    69.38  ( 1636 s)
+round  578  steps  3551232  mean episode reward    74.27  ( 1639 s)
+round  579  steps  3557376  mean episode reward    73.67  ( 1642 s)  | replay: turned    302 deg, no landing
+round  580  steps  3563520  mean episode reward    71.62  ( 1645 s)
+round  581  steps  3569664  mean episode reward    67.67  ( 1648 s)
+round  582  steps  3575808  mean episode reward    73.31  ( 1651 s)  | replay: turned    304 deg, no landing
+round  583  steps  3581952  mean episode reward    74.97  ( 1655 s)
+round  584  steps  3588096  mean episode reward    74.87  ( 1658 s)
+round  585  steps  3594240  mean episode reward    72.99  ( 1660 s)  | replay: turned    303 deg, no landing
+round  586  steps  3600384  mean episode reward    74.42  ( 1664 s)
+round  587  steps  3606528  mean episode reward    70.98  ( 1666 s)
+round  588  steps  3612672  mean episode reward    69.41  ( 1669 s)  | replay: turned    297 deg, no landing
+round  589  steps  3618816  mean episode reward    71.60  ( 1672 s)
+round  590  steps  3624960  mean episode reward    75.49  ( 1675 s)
+round  591  steps  3631104  mean episode reward    69.32  ( 1678 s)  | replay: turned    305 deg, no landing
+round  592  steps  3637248  mean episode reward    67.71  ( 1681 s)
+round  593  steps  3643392  mean episode reward    70.92  ( 1684 s)
+round  594  steps  3649536  mean episode reward    76.83  ( 1687 s)  | replay: turned    306 deg, no landing
+round  595  steps  3655680  mean episode reward    74.89  ( 1690 s)
+round  596  steps  3661824  mean episode reward    67.60  ( 1693 s)
+round  597  steps  3667968  mean episode reward    72.06  ( 1696 s)  | replay: turned    291 deg, no landing
+round  598  steps  3674112  mean episode reward    75.71  ( 1699 s)
+round  599  steps  3680256  mean episode reward    73.58  ( 1702 s)
+round  600  steps  3686400  mean episode reward    72.96  ( 1705 s)  | replay: turned    307 deg, no landing
+round  601  steps  3692544  mean episode reward    68.55  ( 1708 s)
+round  602  steps  3698688  mean episode reward    69.70  ( 1711 s)
+round  603  steps  3704832  mean episode reward    73.57  ( 1714 s)  | replay: turned    316 deg, no landing
+round  604  steps  3710976  mean episode reward    69.83  ( 1717 s)
+round  605  steps  3717120  mean episode reward    70.26  ( 1720 s)
+round  606  steps  3723264  mean episode reward    68.95  ( 1723 s)  | replay: turned    307 deg, no landing
+round  607  steps  3729408  mean episode reward    74.73  ( 1726 s)
+round  608  steps  3735552  mean episode reward    73.86  ( 1729 s)
+round  609  steps  3741696  mean episode reward    72.85  ( 1731 s)  | replay: turned    317 deg, no landing
+round  610  steps  3747840  mean episode reward    74.10  ( 1735 s)
+round  611  steps  3753984  mean episode reward    72.58  ( 1737 s)
+round  612  steps  3760128  mean episode reward    72.30  ( 1740 s)  | replay: turned    305 deg, no landing
+round  613  steps  3766272  mean episode reward    72.08  ( 1743 s)
+round  614  steps  3772416  mean episode reward    67.63  ( 1746 s)
+round  615  steps  3778560  mean episode reward    76.25  ( 1749 s)  | replay: turned    295 deg, no landing
+round  616  steps  3784704  mean episode reward    70.27  ( 1752 s)
+round  617  steps  3790848  mean episode reward    68.05  ( 1755 s)
+round  618  steps  3796992  mean episode reward    67.97  ( 1758 s)  | replay: turned    319 deg, no landing
+round  619  steps  3803136  mean episode reward    71.35  ( 1761 s)
+round  620  steps  3809280  mean episode reward    66.88  ( 1764 s)
+round  621  steps  3815424  mean episode reward    75.11  ( 1767 s)  | replay: turned    305 deg, no landing
+round  622  steps  3821568  mean episode reward    79.92  ( 1770 s)
+round  623  steps  3827712  mean episode reward    73.72  ( 1773 s)
+round  624  steps  3833856  mean episode reward    75.84  ( 1776 s)  | replay: turned    305 deg, no landing
+round  625  steps  3840000  mean episode reward    73.80  ( 1779 s)
+round  626  steps  3846144  mean episode reward    74.55  ( 1782 s)
+round  627  steps  3852288  mean episode reward    72.81  ( 1785 s)  | replay: turned    312 deg, no landing
+round  628  steps  3858432  mean episode reward    71.59  ( 1789 s)
+round  629  steps  3864576  mean episode reward    74.87  ( 1792 s)
+round  630  steps  3870720  mean episode reward    69.16  ( 1795 s)  | replay: turned    308 deg, no landing
+round  631  steps  3876864  mean episode reward    74.09  ( 1798 s)
+round  632  steps  3883008  mean episode reward    72.15  ( 1801 s)
+round  633  steps  3889152  mean episode reward    76.97  ( 1804 s)  | replay: turned    303 deg, no landing
+round  634  steps  3895296  mean episode reward    74.57  ( 1808 s)
+round  635  steps  3901440  mean episode reward    72.95  ( 1811 s)
+round  636  steps  3907584  mean episode reward    70.16  ( 1814 s)  | replay: turned    309 deg, no landing
+round  637  steps  3913728  mean episode reward    74.92  ( 1818 s)
+round  638  steps  3919872  mean episode reward    73.66  ( 1821 s)
+round  639  steps  3926016  mean episode reward    70.34  ( 1823 s)  | replay: turned    314 deg, no landing
+round  640  steps  3932160  mean episode reward    72.38  ( 1827 s)
+round  641  steps  3938304  mean episode reward    73.04  ( 1829 s)
+round  642  steps  3944448  mean episode reward    71.04  ( 1832 s)  | replay: turned    318 deg, no landing
+round  643  steps  3950592  mean episode reward    78.97  ( 1836 s)
+round  644  steps  3956736  mean episode reward    75.82  ( 1839 s)
+round  645  steps  3962880  mean episode reward    77.91  ( 1842 s)  | replay: turned    296 deg, no landing
+round  646  steps  3969024  mean episode reward    75.42  ( 1845 s)
+round  647  steps  3975168  mean episode reward    69.22  ( 1848 s)
+round  648  steps  3981312  mean episode reward    72.90  ( 1851 s)  | replay: turned    306 deg, no landing
+round  649  steps  3987456  mean episode reward    72.42  ( 1854 s)
+round  650  steps  3993600  mean episode reward    72.23  ( 1857 s)
+round  651  steps  3999744  mean episode reward    71.42  ( 1860 s)  | replay: turned    311 deg, no landing
+round  652  steps  4005888  mean episode reward    67.61  ( 1864 s)
+round  653  steps  4012032  mean episode reward    68.40  ( 1867 s)
+round  654  steps  4018176  mean episode reward    73.18  ( 1871 s)  | replay: turned    271 deg, no landing
+round  655  steps  4024320  mean episode reward    71.58  ( 1874 s)
+round  656  steps  4030464  mean episode reward    68.39  ( 1877 s)
+round  657  steps  4036608  mean episode reward    68.54  ( 1880 s)  | replay: turned    300 deg, no landing
+round  658  steps  4042752  mean episode reward    68.98  ( 1884 s)
+round  659  steps  4048896  mean episode reward    71.83  ( 1886 s)
+round  660  steps  4055040  mean episode reward    74.03  ( 1889 s)  | replay: turned    323 deg, no landing
+round  661  steps  4061184  mean episode reward    74.45  ( 1893 s)
+round  662  steps  4067328  mean episode reward    76.33  ( 1896 s)
+round  663  steps  4073472  mean episode reward    75.22  ( 1899 s)  | replay: turned    298 deg, no landing
+round  664  steps  4079616  mean episode reward    71.95  ( 1903 s)
+round  665  steps  4085760  mean episode reward    75.53  ( 1906 s)
+round  666  steps  4091904  mean episode reward    77.60  ( 1909 s)  | replay: turned    308 deg, no landing
+round  667  steps  4098048  mean episode reward    74.79  ( 1913 s)
+round  668  steps  4104192  mean episode reward    73.99  ( 1916 s)
+round  669  steps  4110336  mean episode reward    68.95  ( 1919 s)  | replay: turned    305 deg, no landing
+round  670  steps  4116480  mean episode reward    62.55  ( 1923 s)
+round  671  steps  4122624  mean episode reward    67.71  ( 1926 s)
+round  672  steps  4128768  mean episode reward    67.78  ( 1929 s)  | replay: turned    294 deg, no landing
+round  673  steps  4134912  mean episode reward    66.38  ( 1932 s)
+round  674  steps  4141056  mean episode reward    71.25  ( 1935 s)
+round  675  steps  4147200  mean episode reward    70.45  ( 1938 s)  | replay: turned    305 deg, no landing
+round  676  steps  4153344  mean episode reward    75.03  ( 1942 s)
+round  677  steps  4159488  mean episode reward    78.02  ( 1945 s)
+round  678  steps  4165632  mean episode reward    72.05  ( 1948 s)  | replay: turned    302 deg, no landing
+round  679  steps  4171776  mean episode reward    74.97  ( 1952 s)
+round  680  steps  4177920  mean episode reward    73.14  ( 1955 s)
+round  681  steps  4184064  mean episode reward    72.68  ( 1958 s)  | replay: turned    289 deg, no landing
+round  682  steps  4190208  mean episode reward    63.05  ( 1962 s)
+round  683  steps  4196352  mean episode reward    72.45  ( 1965 s)
+round  684  steps  4202496  mean episode reward    78.59  ( 1968 s)  | replay: turned    311 deg, no landing
+round  685  steps  4208640  mean episode reward    77.52  ( 1972 s)
+round  686  steps  4214784  mean episode reward    73.11  ( 1975 s)
+round  687  steps  4220928  mean episode reward    76.80  ( 1978 s)  | replay: turned    315 deg, no landing
+round  688  steps  4227072  mean episode reward    70.56  ( 1981 s)
+round  689  steps  4233216  mean episode reward    76.64  ( 1984 s)
+round  690  steps  4239360  mean episode reward    67.67  ( 1987 s)  | replay: turned    313 deg, no landing
+round  691  steps  4245504  mean episode reward    76.04  ( 1991 s)
+round  692  steps  4251648  mean episode reward    74.54  ( 1994 s)
+round  693  steps  4257792  mean episode reward    71.92  ( 1997 s)  | replay: turned    305 deg, no landing
+round  694  steps  4263936  mean episode reward    73.88  ( 2000 s)
+round  695  steps  4270080  mean episode reward    74.71  ( 2003 s)
+round  696  steps  4276224  mean episode reward    74.12  ( 2006 s)  | replay: turned    286 deg, no landing
+round  697  steps  4282368  mean episode reward    76.50  ( 2010 s)
+round  698  steps  4288512  mean episode reward    72.89  ( 2013 s)
+round  699  steps  4294656  mean episode reward    70.17  ( 2016 s)  | replay: turned    303 deg, no landing
+round  700  steps  4300800  mean episode reward    80.67  ( 2020 s)
+round  701  steps  4306944  mean episode reward    71.87  ( 2023 s)
+round  702  steps  4313088  mean episode reward    74.73  ( 2026 s)  | replay: turned    302 deg, no landing
+round  703  steps  4319232  mean episode reward    75.08  ( 2029 s)
+round  704  steps  4325376  mean episode reward    75.03  ( 2033 s)
+round  705  steps  4331520  mean episode reward    78.66  ( 2036 s)  | replay: turned    301 deg, no landing
+round  706  steps  4337664  mean episode reward    77.36  ( 2039 s)
+round  707  steps  4343808  mean episode reward    75.31  ( 2042 s)
+round  708  steps  4349952  mean episode reward    76.12  ( 2046 s)  | replay: turned    330 deg, no landing
+round  709  steps  4356096  mean episode reward    79.73  ( 2049 s)
+round  710  steps  4362240  mean episode reward    73.65  ( 2052 s)
+round  711  steps  4368384  mean episode reward    81.01  ( 2055 s)  | replay: turned    307 deg, no landing
+round  712  steps  4374528  mean episode reward    73.73  ( 2059 s)
+round  713  steps  4380672  mean episode reward    73.85  ( 2062 s)
+round  714  steps  4386816  mean episode reward    70.32  ( 2065 s)  | replay: turned    313 deg, no landing
+round  715  steps  4392960  mean episode reward    70.83  ( 2069 s)

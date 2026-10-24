@@ -1,0 +1,40 @@
+building thigh_outer
+   {'bbox_mm': [-33.1, -156.1, 33.5, 33.1, 23.0, 47.5], 'volume_mm3': 50857, 'solid_pla_g': 63.1, 'skeleton': False}
+building thigh_cover
+   {'bbox_mm': [-33.1, -156.1, 28.5, 33.1, 23.0, 33.5], 'volume_mm3': 26772, 'solid_pla_g': 33.2, 'skeleton': False}
+building shank
+   {'bbox_mm': [-13.0, -249.0, 47.0, 13.0, -117.0, 58.0], 'volume_mm3': 23123, 'solid_pla_g': 28.7, 'skeleton': False}
+building thigh_outer
+   {'bbox_mm': [-33.1, -156.1, 33.5, 33.1, 23.0, 47.5], 'volume_mm3': 49663, 'solid_pla_g': 61.6, 'skeleton': True}
+building thigh_cover
+   {'bbox_mm': [-33.1, -156.1, 28.5, 33.1, 23.0, 33.5], 'volume_mm3': 25578, 'solid_pla_g': 31.7, 'skeleton': True}
+building knee_pulley
+   {'bbox_mm': [-20.34, -150.34, 34.0, 20.34, -109.66, 42.0], 'volume_mm3': 6010, 'solid_pla_g': 7.5, 'skeleton': True}
+building shank
+   {'bbox_mm': [-13.0, -249.0, 47.0, 13.0, -117.0, 58.0], 'volume_mm3': 22151, 'solid_pla_g': 27.5, 'skeleton': True}
+building foot
+   {'bbox_mm': [-10.0, -270.0, 43.0, 10.0, -232.3, 63.0], 'volume_mm3': 5706, 'solid_pla_g': 7.1, 'skeleton': True}
+building hip_shaft_adapter
+   {'bbox_mm': [-18.0, -18.0, 22.0, 18.0, 18.0, 28.5], 'volume_mm3': 5459, 'solid_pla_g': 6.8, 'skeleton': True}
+building module_frame_inboard
+   {'bbox_mm': [-36.0, -30.0, -20.0, 36.0, 28.3, 26.5], 'volume_mm3': 42360, 'solid_pla_g': 52.5, 'skeleton': True}
+building module_plate_outboard
+   {'bbox_mm': [-30.0, -30.0, -24.0, 30.0, 34.5, 89.5], 'volume_mm3': 26535, 'solid_pla_g': 32.9, 'skeleton': True}
+building body_bracket_back
+   {'bbox_mm': [-79.0, -27.0, -52.0, -73.0, 27.0, 27.0], 'volume_mm3': 18204, 'solid_pla_g': 22.6, 'skeleton': True}
+building body_bracket_front
+   {'bbox_mm': [36.5, -22.0, -52.0, 42.5, 22.0, 22.0], 'volume_mm3': 15879, 'solid_pla_g': 19.7, 'skeleton': True}
+building body_spine
+   {'bbox_mm': [-72.8, -20.0, -52.0, 36.3, 20.0, -40.0], 'volume_mm3': 29188, 'solid_pla_g': 36.2, 'skeleton': True}
+building rig_plate
+   {'bbox_mm': [-72.8, -20.0, -58.0, 36.3, 20.0, -52.0], 'volume_mm3': 24604, 'solid_pla_g': 30.5, 'skeleton': True}
+building ref_motor_hip
+   {'bbox_mm': [-26.5, -26.5, 47.5, 26.5, 26.5, 84.5], 'volume_mm3': 80498, 'solid_pla_g': 99.8, 'skeleton': True}
+building ref_motor_knee
+   {'bbox_mm': [-26.5, -26.5, -15.0, 26.5, 26.5, 22.0], 'volume_mm3': 80498, 'solid_pla_g': 99.8, 'skeleton': True}
+building ref_motor_abad
+   {'bbox_mm': [-73.0, -26.5, -26.5, -36.0, 26.5, 26.5], 'volume_mm3': 80498, 'solid_pla_g': 99.8, 'skeleton': True}
+building ref_pulley_20T_kit
+   {'bbox_mm': [-6.11, -6.11, 34.0, 6.11, 6.11, 42.0], 'volume_mm3': 782, 'solid_pla_g': 1.0, 'skeleton': True}
+building coupon_fit_test
+   {'bbox_mm': [0.0, -0.0, 0.0, 165.0, 60.0, 5.0], 'volume_mm3': 39817, 'solid_pla_g': 49.4, 'skeleton': True}

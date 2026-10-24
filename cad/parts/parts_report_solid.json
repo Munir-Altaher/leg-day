@@ -1,0 +1,41 @@
+{
+ "thigh_outer": {
+  "bbox_mm": [
+   -33.1,
+   -156.1,
+   33.5,
+   33.1,
+   23.0,
+   47.5
+  ],
+  "volume_mm3": 50222,
+  "solid_pla_g": 62.3,
+  "skeleton": false
+ },
+ "thigh_cover": {
+  "bbox_mm": [
+   -33.1,
+   -156.1,
+   28.5,
+   33.1,
+   23.0,
+   33.5
+  ],
+  "volume_mm3": 26772,
+  "solid_pla_g": 33.2,
+  "skeleton": false
+ },
+ "shank": {
+  "bbox_mm": [
+   -13.0,
+   -256.12,
+   48.0,
+   21.09,
+   -117.0,
+   58.0
+  ],
+  "volume_mm3": 29631,
+  "solid_pla_g": 36.7,
+  "skeleton": false
+ }
+}

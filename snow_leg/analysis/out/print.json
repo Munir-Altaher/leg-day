@@ -1,0 +1,761 @@
+{
+ "snow": {
+  "thigh_outer": {
+   "bed": "+z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    52.2,
+    180.0,
+    14.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "4h 53m 30s",
+   "minutes": 293.5,
+   "grams": 51.09,
+   "slicer_warnings": []
+  },
+  "thigh_cover": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    52.2,
+    180.0,
+    5.6
+   ],
+   "fits": true,
+   "bridges": 5,
+   "max_bridge_span": 4.1,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "2h 56m 18s",
+   "minutes": 176.3,
+   "grams": 26.54,
+   "slicer_warnings": []
+  },
+  "knee_pulley_60T": {
+   "bed": "+z",
+   "profile": [
+    0.12,
+    3,
+    100,
+    "rectilinear",
+    5
+   ],
+   "size": [
+    40.7,
+    40.6,
+    7.5
+   ],
+   "fits": true,
+   "bridges": 1,
+   "max_bridge_span": 2.9,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "1h 30m 24s",
+   "minutes": 90.4,
+   "grams": 7.8,
+   "slicer_warnings": []
+  },
+  "shank": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    3,
+    15,
+    "gyroid",
+    4
+   ],
+   "size": [
+    48.8,
+    164.2,
+    10.0
+   ],
+   "fits": true,
+   "bridges": 1,
+   "max_bridge_span": 4.1,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "1h 50m 41s",
+   "minutes": 110.7,
+   "grams": 18.98,
+   "slicer_warnings": []
+  },
+  "foot_snowshoe": {
+   "bed": "+y",
+   "profile": [
+    0.2,
+    2,
+    10,
+    "gyroid",
+    2
+   ],
+   "size": [
+    117.0,
+    80.0,
+    7.0
+   ],
+   "fits": true,
+   "bridges": 10,
+   "max_bridge_span": 4.1,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "2h 13m 28s",
+   "minutes": 133.5,
+   "grams": 19.67,
+   "slicer_warnings": []
+  },
+  "ankle_bracket_in": {
+   "bed": "+z",
+   "profile": [
+    0.16,
+    3,
+    30,
+    "gyroid",
+    3
+   ],
+   "size": [
+    46.0,
+    28.2,
+    16.0
+   ],
+   "fits": true,
+   "bridges": 7,
+   "max_bridge_span": 0.9,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 11.9,
+   "time": "35m 55s",
+   "minutes": 35.9,
+   "grams": 4.64,
+   "slicer_warnings": []
+  },
+  "ankle_bracket_out": {
+   "bed": "-z",
+   "profile": [
+    0.16,
+    3,
+    30,
+    "gyroid",
+    3
+   ],
+   "size": [
+    46.0,
+    28.2,
+    16.0
+   ],
+   "fits": true,
+   "bridges": 7,
+   "max_bridge_span": 0.9,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 11.9,
+   "time": "36m 1s",
+   "minutes": 36.0,
+   "grams": 4.59,
+   "slicer_warnings": []
+  },
+  "hip_shaft_adapter": {
+   "bed": "-z",
+   "profile": [
+    0.16,
+    4,
+    100,
+    "rectilinear",
+    4
+   ],
+   "size": [
+    36.0,
+    36.0,
+    6.5
+   ],
+   "fits": true,
+   "bridges": 2,
+   "max_bridge_span": 6.4,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "43m 4s",
+   "minutes": 43.1,
+   "grams": 6.86,
+   "slicer_warnings": []
+  },
+  "module_plate_inboard": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    72.0,
+    58.3,
+    7.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "1h 58m 28s",
+   "minutes": 118.5,
+   "grams": 18.09,
+   "slicer_warnings": []
+  },
+  "module_flange_back": {
+   "bed": "-x",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    39.5,
+    52.0,
+    11.8
+   ],
+   "fits": true,
+   "bridges": 6,
+   "max_bridge_span": 0.6,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 28.4,
+   "time": "1h 5m 8s",
+   "minutes": 65.1,
+   "grams": 10.21,
+   "slicer_warnings": []
+  },
+  "module_flange_front": {
+   "bed": "+x",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    39.5,
+    52.0,
+    11.8
+   ],
+   "fits": true,
+   "bridges": 6,
+   "max_bridge_span": 0.6,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 28.4,
+   "time": "1h 6m 7s",
+   "minutes": 66.1,
+   "grams": 10.45,
+   "slicer_warnings": []
+  },
+  "module_frame_outboard": {
+   "bed": "+y",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    60.0,
+    113.5,
+    80.0
+   ],
+   "fits": true,
+   "bridges": 26,
+   "max_bridge_span": 0.5,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 486.0,
+   "time": "5h 9m 5s",
+   "minutes": 309.1,
+   "grams": 55.26,
+   "slicer_warnings": []
+  },
+  "hip_shroud_out": {
+   "bed": "+z",
+   "profile": [
+    0.2,
+    3,
+    15,
+    "gyroid",
+    4
+   ],
+   "size": [
+    73.0,
+    80.5,
+    42.5
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "3h 59m 40s",
+   "minutes": 239.7,
+   "grams": 50.13,
+   "slicer_warnings": []
+  },
+  "body_bracket_back": {
+   "bed": "-x",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    67.0,
+    54.0,
+    28.0
+   ],
+   "fits": true,
+   "bridges": 6,
+   "max_bridge_span": 0.9,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 46.0,
+   "time": "1h 51m 35s",
+   "minutes": 111.6,
+   "grams": 18.04,
+   "slicer_warnings": []
+  },
+  "body_bracket_front": {
+   "bed": "+x",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    68.0,
+    48.0,
+    25.5
+   ],
+   "fits": true,
+   "bridges": 12,
+   "max_bridge_span": 0.6,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 56.9,
+   "time": "1h 42m 56s",
+   "minutes": 102.9,
+   "grams": 18.27,
+   "slicer_warnings": []
+  },
+  "body_spine": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    109.1,
+    60.0,
+    14.0
+   ],
+   "fits": true,
+   "bridges": 6,
+   "max_bridge_span": 6.5,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "4h 46m 22s",
+   "minutes": 286.4,
+   "grams": 44.78,
+   "slicer_warnings": []
+  },
+  "rig_plate": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    109.1,
+    60.0,
+    8.0
+   ],
+   "fits": true,
+   "bridges": 4,
+   "max_bridge_span": 4.5,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "3h 21m 55s",
+   "minutes": 201.9,
+   "grams": 30.63,
+   "slicer_warnings": []
+  },
+  "coupon_fit_test": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    100,
+    "rectilinear",
+    4
+   ],
+   "size": [
+    175.0,
+    80.0,
+    15.1
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "7h 3m 47s",
+   "minutes": 423.8,
+   "grams": 73.29,
+   "slicer_warnings": []
+  }
+ },
+ "original": {
+  "thigh_outer": {
+   "bed": "+z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    66.2,
+    179.1,
+    14.0
+   ],
+   "fits": true,
+   "bridges": 1,
+   "max_bridge_span": 15.1,
+   "long_bridges": 1,
+   "steep_overhang_mm2": 0.0,
+   "time": "4h 50m 55s",
+   "minutes": 290.9,
+   "grams": 50.49,
+   "slicer_warnings": [
+    "print warning: Detected print stability issues:"
+   ]
+  },
+  "thigh_cover": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    66.2,
+    179.1,
+    5.0
+   ],
+   "fits": true,
+   "bridges": 3,
+   "max_bridge_span": 3.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "2h 48m 43s",
+   "minutes": 168.7,
+   "grams": 25.39,
+   "slicer_warnings": []
+  },
+  "knee_pulley_60T": {
+   "bed": "+z",
+   "profile": [
+    0.12,
+    3,
+    100,
+    "rectilinear",
+    5
+   ],
+   "size": [
+    40.7,
+    40.6,
+    8.0
+   ],
+   "fits": true,
+   "bridges": 2,
+   "max_bridge_span": 14.0,
+   "long_bridges": 1,
+   "steep_overhang_mm2": 0.0,
+   "time": "1h 30m 23s",
+   "minutes": 90.4,
+   "grams": 7.93,
+   "slicer_warnings": [
+    "print warning: Detected print stability issues:",
+    "Floating bridge anchors, Loose extrusions, Long bridging extrusions"
+   ]
+  },
+  "shank": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    25.9,
+    132.0,
+    10.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "1h 30m 21s",
+   "minutes": 90.3,
+   "grams": 16.71,
+   "slicer_warnings": []
+  },
+  "foot": {
+   "bed": "-z",
+   "profile": [
+    0.16,
+    4,
+    100,
+    "rectilinear",
+    4
+   ],
+   "size": [
+    20.0,
+    37.7,
+    20.0
+   ],
+   "fits": true,
+   "bridges": 1,
+   "max_bridge_span": 11.8,
+   "long_bridges": 1,
+   "steep_overhang_mm2": 181.0,
+   "time": "40m 43s",
+   "minutes": 40.7,
+   "grams": 7.17,
+   "slicer_warnings": [
+    "print warning: Detected print stability issues:",
+    "Floating bridge anchors, Low bed adhesion, Loose extrusions, Long bridging extrusions"
+   ]
+  },
+  "hip_shaft_adapter": {
+   "bed": "-z",
+   "profile": [
+    0.16,
+    4,
+    100,
+    "rectilinear",
+    4
+   ],
+   "size": [
+    36.0,
+    36.0,
+    6.5
+   ],
+   "fits": true,
+   "bridges": 2,
+   "max_bridge_span": 6.4,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "43m 4s",
+   "minutes": 43.1,
+   "grams": 6.86,
+   "slicer_warnings": []
+  },
+  "module_frame_inboard": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    72.0,
+    58.3,
+    46.5
+   ],
+   "fits": true,
+   "bridges": 12,
+   "max_bridge_span": 3.6,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 53.0,
+   "time": "3h 45m 23s",
+   "minutes": 225.4,
+   "grams": 40.57,
+   "slicer_warnings": []
+  },
+  "module_plate_outboard": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    59.9,
+    64.4,
+    113.5
+   ],
+   "fits": true,
+   "bridges": 1,
+   "max_bridge_span": 33.1,
+   "long_bridges": 1,
+   "steep_overhang_mm2": 0.0,
+   "time": "3h 7m 23s",
+   "minutes": 187.4,
+   "grams": 28.18,
+   "slicer_warnings": [
+    "print warning: Detected print stability issues:",
+    "Floating bridge anchors, Low bed adhesion, Loose extrusions, Long bridging extrusions"
+   ]
+  },
+  "body_bracket_back": {
+   "bed": "-x",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    79.0,
+    53.9,
+    6.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "1h 34m 0s",
+   "minutes": 94.0,
+   "grams": 15.09,
+   "slicer_warnings": []
+  },
+  "body_bracket_front": {
+   "bed": "+x",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    74.0,
+    44.0,
+    6.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "1h 15m 25s",
+   "minutes": 75.4,
+   "grams": 12.87,
+   "slicer_warnings": []
+  },
+  "body_spine": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    109.1,
+    40.0,
+    12.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "2h 25m 12s",
+   "minutes": 145.2,
+   "grams": 23.55,
+   "slicer_warnings": []
+  },
+  "rig_plate": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    40,
+    "gyroid",
+    4
+   ],
+   "size": [
+    109.1,
+    40.0,
+    6.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "2h 13m 28s",
+   "minutes": 133.5,
+   "grams": 20.14,
+   "slicer_warnings": []
+  },
+  "coupon_fit_test": {
+   "bed": "-z",
+   "profile": [
+    0.2,
+    4,
+    100,
+    "rectilinear",
+    4
+   ],
+   "size": [
+    165.0,
+    60.0,
+    5.0
+   ],
+   "fits": true,
+   "bridges": 0,
+   "max_bridge_span": 0.0,
+   "long_bridges": 0,
+   "steep_overhang_mm2": 0.0,
+   "time": "3h 58m 24s",
+   "minutes": 238.4,
+   "grams": 50.08,
+   "slicer_warnings": []
+  }
+ }
+}

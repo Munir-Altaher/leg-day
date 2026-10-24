@@ -1,0 +1,74 @@
+<mujoco model="leg_day_snowshoe">
+  <compiler angle="radian"/>
+
+  <option timestep="0.0005"/>
+
+  <size nkey="1"/>
+
+  <asset>
+    <mesh name="base" content_type="model/stl" file="meshes/base.stl"/>
+    <mesh name="abad" content_type="model/stl" file="meshes/abad.stl"/>
+    <mesh name="thigh" content_type="model/stl" file="meshes/thigh.stl"/>
+    <mesh name="shank" content_type="model/stl" file="meshes/shank.stl"/>
+    <mesh name="shoe" content_type="model/stl" file="meshes/shoe.stl"/>
+  </asset>
+
+  <worldbody>
+    <geom name="floor" size="2 2 0.05" type="plane" conaffinity="2" friction="0.6" solref="0.002" rgba="0.85 0.88 0.92 1"/>
+    <light pos="0.3 -0.6 1.2" dir="-0.17609 0.440225 -0.880451" diffuse="0.8 0.8 0.8"/>
+    <body name="base" pos="0 0 0.202" quat="0.707107 0.707107 0 0">
+      <inertial pos="-0.0430059 2.21005e-09 -0.0133192" quat="0.345136 0.617156 0.617156 0.345136" mass="0.30384" diaginertia="0.00048148 0.000406627 0.000177033"/>
+      <joint name="root" type="free"/>
+      <geom quat="1 0 0 0" type="mesh" contype="2" solref="0.002" rgba="0.35 0.37 0.42 1" mesh="base"/>
+      <body name="abad">
+        <inertial pos="1.04886e-05 0.00123472 0.0578423" quat="0.999974 0.00712274 -0.000233859 0.000932966" mass="0.84615" diaginertia="0.0015785 0.00156816 0.000283069"/>
+        <joint name="abad" solreflimit="0.002" solimplimit="0.98 0.995 0.0005" range="-0.7854 0.7854" actuatorfrcrange="-4.1 4.1" axis="1 0 0"/>
+        <geom quat="1 0 0 0" type="mesh" contype="2" solref="0.002" rgba="0.35 0.37 0.42 1" mesh="abad"/>
+        <body name="thigh">
+          <inertial pos="-3.17143e-05 -0.0632604 0.0383563" quat="0.499863 0.500119 -0.499992 0.500026" mass="0.10029" diaginertia="0.00031327 0.00028795 3.4124e-05"/>
+          <joint name="hip" solreflimit="0.002" solimplimit="0.98 0.995 0.0005" range="-1.74533 1.74533" actuatorfrcrange="-4.1 4.1"/>
+          <geom pos="0 0 0" quat="1 0 0 0" type="mesh" contype="2" solref="0.002" rgba="0.18 0.44 0.87 1" mesh="thigh"/>
+          <body name="shank" pos="0 -0.13 0">
+            <inertial pos="0.00323497 -0.0354382 0.0483904" quat="0.474864 0.464371 -0.491196 0.563551" mass="0.03322" diaginertia="6.26194e-05 6.12701e-05 3.87036e-06"/>
+            <joint name="knee" solreflimit="0.002" solimplimit="0.98 0.995 0.0005" range="0.2618 2.53073" actuatorfrcrange="-2.292 2.292"/>
+            <geom pos="0 0 0" quat="1 0 0 0" type="mesh" contype="2" solref="0.002" rgba="0.18 0.44 0.87 1" mesh="shank"/>
+            <body name="shoe" pos="0.00173648 -0.120152 0">
+              <inertial pos="-0.0072288 -0.00921779 0.0530965" quat="0.489376 0.491352 0.509745 0.509161" mass="0.03328" diaginertia="2.91608e-05 2.22011e-05 1.01022e-05"/>
+              <joint name="ankle" solreflimit="0.002" solimplimit="0.98 0.995 0.0005" range="-0.90757 -0.19199" damping="0.002" frictionloss="0.09"/>
+              <geom pos="0 0 0" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" solref="0.002" rgba="0.88 0.48 0.22 1" mesh="shoe"/>
+              <geom name="sole0" size="0.0015" pos="0.0145775 -0.0135 0.0199686" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole1" size="0.0015" pos="0.0262658 -0.0135 0.0242956" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole2" size="0.0015" pos="0.0355633 -0.0135 0.0325959" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole3" size="0.0015" pos="0.0411833 -0.0135 0.0437205" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole4" size="0.0015" pos="0.0423476 -0.0135 0.0561296" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole5" size="0.0015" pos="0.0388952 -0.0135 0.0681054" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole6" size="0.0015" pos="0.031304 -0.0135 0.0779904" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole7" size="0.0015" pos="0.0206246 -0.0135 0.0844163" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole8" size="0.0015" pos="-0.0347559 -0.0135 0.0781433" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole9" size="0.0015" pos="-0.0464462 -0.0135 0.0773904" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole10" size="0.0015" pos="-0.0565663 -0.0135 0.0714901" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole11" size="0.0015" pos="-0.0629804 -0.0135 0.0616876" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole12" size="0.0015" pos="-0.0643349 -0.0135 0.0500516" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole13" size="0.0015" pos="-0.0603439 -0.0135 0.0390379" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole14" size="0.0015" pos="-0.0518496 -0.0135 0.0309708" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole15" size="0.0015" pos="-0.0406449 -0.0135 0.0275527" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole16" size="0.0015" pos="-0.0460059 -0.0135 0.053" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole17" size="0.0015" pos="0 -0.0135 0.053" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+              <geom name="sole18" size="0.0015" pos="0.0239941 -0.0135 0.053" contype="2" solref="0.002" rgba="0.88 0.48 0.22 0" mass="0"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <general name="abad" joint="abad" ctrlrange="-4.1 4.1" ctrllimited="true"/>
+    <general name="hip" joint="hip" ctrlrange="-4.1 4.1" ctrllimited="true"/>
+    <general name="knee" joint="knee" ctrlrange="-2.29183 2.29183" ctrllimited="true"/>
+  </actuator>
+
+  <keyframe>
+    <key name="stand" qpos="0 0 0.18819 0.707107 0.707107 0 0 0 -0.698132 1.6057 -0.907571"/>
+  </keyframe>
+</mujoco>

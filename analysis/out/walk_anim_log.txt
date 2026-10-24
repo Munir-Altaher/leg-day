@@ -1,0 +1,77 @@
+  module_plate_inboard-1       box(mm) x[  -36.0,   36.0] y[  -30.0,   28.3] z[  -20.0,  -13.0]
+  module_flange_back-1         box(mm) x[  -36.0,  -24.2] y[  -26.0,   26.0] z[  -13.0,   26.5]
+  module_flange_front-1        box(mm) x[   24.2,   36.0] y[  -26.0,   26.0] z[  -13.0,   26.5]
+  module_frame_outboard-1      box(mm) x[  -30.0,   30.0] y[  -30.0,   40.0] z[  -24.0,   89.5]
+  ref_motor_hip-1              box(mm) x[  -26.5,   26.5] y[  -26.5,   26.5] z[   47.5,   84.5]
+  ref_motor_knee-1             box(mm) x[  -26.5,   26.5] y[  -26.5,   26.5] z[  -15.0,   22.0]
+  hip_shaft_adapter-1          box(mm) x[  -18.0,   18.0] y[  -18.0,   18.0] z[   22.0,   28.5]
+  ref_pulley_20T_kit-1         box(mm) x[   -6.1,    6.1] y[   -6.1,    6.1] z[   34.0,   42.0]
+  thigh_outer-1                box(mm) x[  -33.1,   33.1] y[ -156.1,   23.0] z[   33.5,   47.5]
+  thigh_cover-1                box(mm) x[  -33.1,   33.1] y[ -156.1,   23.0] z[   28.5,   33.5]
+  knee_pulley_60T-1            box(mm) x[  -20.3,   20.3] y[ -150.3, -109.7] z[   34.0,   41.5]
+  shank-1                      box(mm) x[  -32.0,   13.0] y[ -257.6, -117.0] z[   48.0,   58.0]
+  foot-1                       box(mm) x[  -15.8,   11.0] y[ -271.0, -242.0] z[   42.0,   64.0]
+  ref_motor_abad-1             box(mm) x[  -73.0,  -36.0] y[  -26.5,   26.5] z[  -26.5,   26.5]
+  body_bracket_back-1          box(mm) x[  -79.0,  -51.0] y[  -27.0,   27.0] z[  -40.0,   27.0]
+  body_bracket_front-1         box(mm) x[   17.0,   42.5] y[  -24.0,   24.0] z[  -46.0,   22.0]
+  body_spine-1                 box(mm) x[  -72.8,   36.3] y[  -24.0,   24.0] z[  -54.0,  -40.0]
+  rig_plate-1                  box(mm) x[  -72.8,   36.3] y[  -20.0,   20.0] z[  -62.0,  -54.0]
+  ref_ground-1                 box(mm) x[ -170.0,  170.0] y[ -228.2, -224.2] z[  -20.0,  110.0]
+    mate HIP_axis: ok
+    mate HIP_plane: ok
+    mate HIP_drive: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate KM_axis: ok
+    mate KM_plane: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate KNEE_axis: ok
+    mate KNEE_plane: ok
+    mate KNEE_drive: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+    mate 0: ok
+frame 00 q1  -29.2 q2   69.1 foot error vs FK 4.26 mm
+frame 01 q1  -30.4 q2   69.4 foot error vs FK 4.26 mm
+frame 02 q1  -31.8 q2   69.6 foot error vs FK 4.26 mm
+frame 03 q1  -33.1 q2   69.8 foot error vs FK 4.26 mm
+frame 04 q1  -34.2 q2   69.8 foot error vs FK 4.26 mm
+frame 05 q1  -35.4 q2   69.8 foot error vs FK 4.26 mm
+frame 06 q1  -36.5 q2   69.8 foot error vs FK 4.26 mm
+frame 07 q1  -37.7 q2   69.6 foot error vs FK 4.26 mm
+frame 08 q1  -38.8 q2   69.4 foot error vs FK 4.26 mm
+frame 09 q1  -39.9 q2   69.1 foot error vs FK 4.26 mm
+frame 10 q1  -40.8 q2   68.8 foot error vs FK 4.26 mm
+frame 11 q1  -41.8 q2   68.3 foot error vs FK 4.26 mm
+frame 12 q1  -42.7 q2   67.9 foot error vs FK 4.26 mm
+frame 13 q1  -43.6 q2   67.3 foot error vs FK 4.26 mm
+frame 14 q1  -44.4 q2   66.6 foot error vs FK 4.26 mm
+frame 15 q1  -45.3 q2   65.8 foot error vs FK 4.26 mm
+frame 16 q1  -45.9 q2   65.1 foot error vs FK 4.26 mm
+frame 17 q1  -46.6 q2   64.2 foot error vs FK 4.26 mm
+frame 18 q1  -47.3 q2   63.2 foot error vs FK 4.26 mm
+frame 19 q1  -52.8 q2   72.7 foot error vs FK 4.26 mm
+frame 20 q1  -57.0 q2   82.6 foot error vs FK 4.26 mm
+frame 21 q1  -57.1 q2   91.0 foot error vs FK 4.26 mm
+frame 22 q1  -52.9 q2   95.5 foot error vs FK 4.26 mm
+frame 23 q1  -44.0 q2   95.9 foot error vs FK 4.26 mm
+frame 24 q1  -33.9 q2   91.0 foot error vs FK 4.26 mm
+frame 25 q1  -26.7 q2   84.0 foot error vs FK 4.26 mm
+frame 26 q1  -20.6 q2   74.2 foot error vs FK 4.26 mm
+frame 27 q1  -15.9 q2   63.2 foot error vs FK 4.26 mm
+frame 28 q1  -17.3 q2   64.1 foot error vs FK 4.26 mm
+frame 29 q1  -19.0 q2   65.0 foot error vs FK 4.26 mm
+frame 30 q1  -20.6 q2   65.8 foot error vs FK 4.26 mm
+frame 31 q1  -21.9 q2   66.5 foot error vs FK 4.26 mm
+frame 32 q1  -23.5 q2   67.2 foot error vs FK 4.26 mm
+frame 33 q1  -24.8 q2   67.7 foot error vs FK 4.26 mm
+frame 34 q1  -26.3 q2   68.3 foot error vs FK 4.26 mm
+frame 35 q1  -27.8 q2   68.7 foot error vs FK 4.26 mm
+max foot error vs FK: 4.26 mm
+wrote C:\Users\<user>\Documents\DOG\leg_day\cad\..\docs\renders\walk_solidworks.gif

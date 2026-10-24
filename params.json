@@ -1,0 +1,205 @@
+{
+ "ABAD_CLEAR": 2.0,
+ "ADAPTER_T": 6.0,
+ "ANKLE_BUILD": 32.0,
+ "ANKLE_LIM": [
+  11.0,
+  52.0
+ ],
+ "ANKLE_LIP_H": 12.0,
+ "ANKLE_OFF_DEG": 0.8280029877243367,
+ "ANKLE_UP": 10.0,
+ "AXLE_D": 5.0,
+ "B625": {
+  "d": 5.0,
+  "D": 16.0,
+  "B": 5.0
+ },
+ "BACKLASH_ARCMIN": 18.0,
+ "BB_BACK_R": 27.0,
+ "BB_FRONT_R": 22.0,
+ "BED": [
+  220,
+  220,
+  250
+ ],
+ "BELT_SUPPLIED": 450.0,
+ "BELT_T_CONT": 60.0,
+ "BELT_T_PEAK": 120.0,
+ "BELT_W": 6.0,
+ "BRACKET_T": 6.0,
+ "BRIDGE_W": 20.0,
+ "BRIDGE_Y": [
+  28.5,
+  34.5
+ ],
+ "CLR": {
+  "M2.5": 2.9,
+  "M3": 3.4,
+  "M4": 4.5,
+  "M5": 5.5
+ },
+ "FIT_BEARING": 0.1,
+ "FIT_LOCATE": 0.2,
+ "FIT_RUN": 0.35,
+ "FLANGE_T": 5.5,
+ "FLANGE_X": 30.5,
+ "FOOT_D": 22.0,
+ "FOOT_SCREW": "M3",
+ "GAP_MOVING": 0.5,
+ "GEAR": 10.0,
+ "GT2_PITCH": 2.0,
+ "GT2_PLD": 0.254,
+ "GT2_TOOTH_TWEAK": 0.0,
+ "HIP_TEETH": 20,
+ "IDLER_BOLT": "M3",
+ "IDLER_SLOT_TRAVEL": 9.0,
+ "IDLER_Y": -40.0,
+ "INSERT_M3": 4.0,
+ "KNEE_TEETH": 60,
+ "KT_OUT": 0.56,
+ "L1": 130.0,
+ "L2": 130.0,
+ "L2_ANKLE": 120.1644699658275,
+ "L_ABAD": 53.0,
+ "MOTOR_BACK_HOLE_DEPTH": 5.0,
+ "MOTOR_BACK_N": 5,
+ "MOTOR_BACK_PCD": 45.0,
+ "MOTOR_BOSS_D": 15.0,
+ "MOTOR_BOSS_H": 1.0,
+ "MOTOR_D": 53.0,
+ "MOTOR_L": 37.0,
+ "MOTOR_MASS": 0.185,
+ "MOTOR_OUTPUT_FACE": "right_inner",
+ "MOTOR_OUT_HOLE_DEPTH": 3.0,
+ "MOTOR_OUT_PCD": 27.0,
+ "NUT_AF": {
+  "M2.5": 5.2,
+  "M3": 5.7,
+  "M5": 8.2
+ },
+ "N_RATIO": 3.0,
+ "OD_HIP": 12.224395447351629,
+ "OD_KNEE": 37.68918634205488,
+ "PD_HIP": 12.732395447351628,
+ "PD_KNEE": 38.197186342054884,
+ "PLATE_T": 5.0,
+ "PLA_E": 2300.0,
+ "PLA_RHO": 1.24e-06,
+ "PLA_STRENGTH": 25.0,
+ "Q0_LIM": [
+  -45.0,
+  45.0
+ ],
+ "Q1_LIM": [
+  -100.0,
+  100.0
+ ],
+ "Q2_LIM": [
+  15.0,
+  145.0
+ ],
+ "RIG_SLOT_GRID": 20.0,
+ "ROTOR_INERTIA": 5.4e-05,
+ "SF": 2.0,
+ "SHANK_BEND_DEG": -10.0,
+ "SHANK_BEND_FOOT": 40.0,
+ "SHANK_BEND_REACH": 45.0,
+ "SHANK_FOOT_TILT_DEG": -10.0,
+ "SHANK_T": 10.0,
+ "SHANK_W_FOOT": 22.0,
+ "SHANK_W_KNEE": 26.0,
+ "SHOE_CELL": [
+  5.5,
+  11.0
+ ],
+ "SHOE_CHEEK_T": 4.0,
+ "SHOE_KEEL_H": 10.0,
+ "SHOE_KEEL_HUB": 9.0,
+ "SHOE_KEEL_W": 2.4,
+ "SHOE_KEEL_Z": 18.0,
+ "SHOE_L": 110.0,
+ "SHOE_PIVOT_AHEAD": 0.08,
+ "SHOE_PIVOT_UP": 15.0,
+ "SHOE_RIB_H": 3.0,
+ "SHOE_RIB_W": 1.2,
+ "SHOE_RIM_H": 6.0,
+ "SHOE_RIM_W": 2.4,
+ "SHOE_R_TAIL": 27.0,
+ "SHOE_R_TOE": 35.0,
+ "SHOE_SKIN": 0.8,
+ "SHOE_TOE_LIFT": 5.0,
+ "SHOE_TOE_RUN": 5.0,
+ "SKELETON": true,
+ "SK_CUTS": 3,
+ "SK_CUT_INSET_SHANK": 2.5,
+ "SK_CUT_R": 3.0,
+ "SK_CUT_WALL_SHANK": 7.0,
+ "SK_CUT_WALL_THIGH": 5.0,
+ "SK_FILLET": 2.0,
+ "SK_FLANGE": 4.5,
+ "SK_KNEE_SOLID_R": 13.0,
+ "SK_MIN_HOLE": 6.0,
+ "SK_SHANK_HOLES": 5,
+ "SK_STRUT": 4.0,
+ "SK_THIGH_HOLES": 4,
+ "SK_WEB": 3.0,
+ "SPEED_RATED": 370.0,
+ "SPINE_Z": [
+  -54.0,
+  -46.0
+ ],
+ "STANCE_FRAC": 0.82,
+ "STUB_D": 5.0,
+ "TAP": {
+  "M2.5": 2.2,
+  "M3": 2.6
+ },
+ "TAU_PEAK": 4.1,
+ "TAU_RATED": 1.3,
+ "THIGH_BOSS_R_HIP": 20.0,
+ "THIGH_BOSS_R_KNEE": 12.0,
+ "THIGH_CHANNEL": 9.0,
+ "THIGH_CH_R_HIP": 17.5,
+ "THIGH_CH_R_KNEE": 22.098593171027442,
+ "THIGH_R_HIP": 23.0,
+ "THIGH_R_KNEE": 26.098593171027442,
+ "THIGH_WALL": 5.0,
+ "THIGH_WALL_THIN": 3.0,
+ "Z_ADAPTER": [
+  -31.0,
+  -25.0
+ ],
+ "Z_CHANNEL": [
+  -19.5,
+  -10.5
+ ],
+ "Z_HIP_MOTOR": [
+  -5.5,
+  31.5
+ ],
+ "Z_KNEE_MOTOR": [
+  -68.0,
+  -31.0
+ ],
+ "Z_PLATE_IN": [
+  -73.0,
+  -68.0
+ ],
+ "Z_PLATE_OUT": [
+  31.5,
+  36.5
+ ],
+ "Z_SHANK": [
+  -5.0,
+  5.0
+ ],
+ "Z_THIGH_IN": [
+  -24.5,
+  -19.5
+ ],
+ "Z_THIGH_OUT": [
+  -10.5,
+  -5.5
+ ]
+}
